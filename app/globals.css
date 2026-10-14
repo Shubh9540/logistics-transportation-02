@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: var(--font-montserrat), sans-serif;
+  --font-heading: var(--font-montserrat), sans-serif;
+
+  /* TransWorld global theme */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-light: #ffffff;
+  --color-bg-alt: #f4f8fb;
+  --color-primary: #063a5b;
+  --color-primary-dark: #002d49;
+  --color-primary-light: #0a5275;
+  --color-secondary: #ff6500;
+  --color-accent: #ff6500;
+  --color-accent-light: #ff8a3d;
+  --color-text: #526575;
+  --color-text-light: #738392;
+  --color-border: #dce6ed;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}

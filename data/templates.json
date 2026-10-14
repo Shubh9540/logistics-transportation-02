@@ -1,0 +1,1447 @@
+{
+  "common": {
+    "metadata": {
+      "title": "TransWorld | Logistics & Transportation",
+      "description": "Reliable logistics and transportation solutions for freight, warehousing, supply chain and e-commerce delivery with TransWorld.",
+      "icon": "/main logo/logo.webp"
+    },
+    "Footer": {
+      "logo": "/main logo/logo.webp",
+      "logoAlt": "TransWorld Logistics & Transportation Logo",
+      "logoUrl": "/",
+      "backgroundImage": "/banner/hero_1.webp",
+      "backgroundImageAlt": "Freight truck and port forming the footer background",
+      "patternImage": "/service/service_bg.webp",
+      "patternImageAlt": "World map showing global logistics routes",
+      "copyrightText": "\u00A9 2026 TransWorld Logistics & Transportation. All rights reserved. Powered By Lestow",
+      "description": "Your trusted partner in logistics and transportation, delivering safe, reliable and efficient solutions across the globe.",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Contact Information",
+      "servicesTitle": "Our Services",
+      "galleryTitle": "Gallery",
+      "galleryUrl": "/gallery",
+      "backToTopLabel": "Back to top",
+      "backToTopUrl": "#",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-x",
+          "icon": "FaXTwitter",
+          "label": "X",
+          "url": "https://x.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-linkedin",
+          "icon": "FaLinkedinIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "quick-services",
+          "label": "Our Services",
+          "url": "/services"
+        },
+        {
+          "id": "quick-gallery",
+          "label": "Gallery",
+          "url": "/gallery"
+        },
+        {
+          "id": "quick-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "quick-faqs",
+          "label": "FAQs",
+          "url": "/testimonials"
+        },
+        {
+          "id": "quick-contact",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "serviceLinks": [
+        {
+          "id": "footer-service-freight",
+          "label": "Freight Transportation",
+          "url": "/services"
+        },
+        {
+          "id": "footer-service-warehouse",
+          "label": "Warehousing & Distribution",
+          "url": "/services"
+        },
+        {
+          "id": "footer-service-supply-chain",
+          "label": "Supply Chain Management",
+          "url": "/services"
+        },
+        {
+          "id": "footer-service-ecommerce",
+          "label": "E-Commerce Solutions",
+          "url": "/services"
+        },
+        {
+          "id": "footer-service-road",
+          "label": "Road Transportation",
+          "url": "/services"
+        },
+        {
+          "id": "footer-service-air",
+          "label": "Air Freight",
+          "url": "/services"
+        },
+        {
+          "id": "footer-service-ocean",
+          "label": "Ocean Freight",
+          "url": "/services"
+        }
+      ],
+      "galleryImages": [
+        {
+          "id": "footer-gallery-global-freight",
+          "image": "/blog/1.jpg",
+          "imageAlt": "Global freight transportation by road, sea and air"
+        },
+        {
+          "id": "footer-gallery-road-freight",
+          "image": "/blog/2.jpg",
+          "imageAlt": "Freight truck at a logistics terminal"
+        },
+        {
+          "id": "footer-gallery-truck-sunset",
+          "image": "/blog/3.jpg",
+          "imageAlt": "Freight truck travelling at sunset"
+        },
+        {
+          "id": "footer-gallery-port",
+          "image": "/blog/4.jpg",
+          "imageAlt": "Cargo ship and container truck at a port"
+        },
+        {
+          "id": "footer-gallery-logistics-worker",
+          "image": "/blog/5.jpg",
+          "imageAlt": "Logistics professional at a freight facility"
+        },
+        {
+          "id": "footer-gallery-ocean-freight",
+          "image": "/blog/6.jpg",
+          "imageAlt": "Container ship moving across the ocean"
+        }
+      ],
+      "contactItems": [
+        {
+          "id": "contact-office",
+          "icon": "FaMapMarkerAlt",
+          "title": "Our Office",
+          "value": "123 Main St, NY, USA",
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+        },
+        {
+          "id": "contact-phone",
+          "icon": "FaPhoneAlt",
+          "title": "Call Us",
+          "value": "+1 000000000",
+          "url": "tel:+1000000000"
+        },
+        {
+          "id": "contact-email",
+          "icon": "FaEnvelope",
+          "title": "Email Us",
+          "value": "info@xyz.com",
+          "url": "mailto:info@xyz.com"
+        }
+      ]
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Services",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-services-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-services-current",
+          "label": "Services"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Gallery",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-gallery-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-gallery-current",
+          "label": "Gallery"
+        }
+      ]
+    },
+    "testimonialsBreadcrumb": {
+      "title": "Testimonials",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-testimonials-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-testimonials-current",
+          "label": "Testimonials"
+        }
+      ]
+    },
+    "blogsBreadcrumb": {
+      "title": "Blogs",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-blogs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blogs-current",
+          "label": "Blogs"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Logistics": {
+      "sections": {
+        "TopBar": {
+          "variants": {}
+        },
+        "Header": {
+          "variants": {
+            "TransWorldHeader1": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "TransWorld Logistics & Transportation",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Our Services",
+                  "url": "/services"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog",
+                  "hasDropdown": true
+                },
+                {
+                  "id": "nl-faqs",
+                  "label": "FAQs",
+                  "url": "/testimonials"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Get A Quote",
+                "url": "/contact",
+                "icon": "FaArrowUp"
+              },
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "TransWorldHero1": {
+              "autoplayDelay": 5500,
+              "slideNavigationLabel": "Show hero slide",
+              "slides": [
+                {
+                  "id": "hero-road-logistics",
+                  "eyebrow": "Global Logistics Solutions",
+                  "titleLine1": "Moving Your",
+                  "highlightedTitle": "Business Forward",
+                  "description": "Reliable logistics and transportation solutions to connect your business to a bigger world.",
+                  "image": "/banner/hero_1.webp",
+                  "imageAlt": "Freight truck transporting a blue shipping container at sunset",
+                  "primaryButton": {
+                    "text": "Our Services",
+                    "url": "/services",
+                    "icon": "FaArrowRight"
+                  }
+                },
+                {
+                  "id": "hero-air-logistics",
+                  "eyebrow": "Air Freight Solutions",
+                  "titleLine1": "Delivering Beyond",
+                  "highlightedTitle": "Every Horizon",
+                  "description": "Fast and dependable air cargo solutions that keep time-sensitive shipments moving worldwide.",
+                  "image": "/banner/hero_2.webp",
+                  "imageAlt": "Cargo aircraft being loaded with freight at sunset",
+                  "primaryButton": {
+                    "text": "Our Services",
+                    "url": "/services",
+                    "icon": "FaArrowRight"
+                  }
+                },
+                {
+                  "id": "hero-ocean-logistics",
+                  "eyebrow": "Ocean Freight Solutions",
+                  "titleLine1": "Connecting Markets",
+                  "highlightedTitle": "Across The World",
+                  "description": "Flexible ocean freight services designed to move your cargo securely across global trade routes.",
+                  "image": "/banner/hero_3.webp",
+                  "imageAlt": "Aerial view of a container ship travelling across the ocean",
+                  "primaryButton": {
+                    "text": "Our Services",
+                    "url": "/services",
+                    "icon": "FaArrowRight"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "TransWorldAboutUs1": {
+              "subtitle": "About Us",
+              "titleLine1": "Your trusted partner in",
+              "highlightedTitle": "seamless cargo movement",
+              "description": "We are your reliable partner in seamless cargo movement, providing efficient, secure, and timely transportation solutions backed by our expertise and advanced logistics network.",
+              "imageMain": "/about/about_left.webp",
+              "imageMainAlt": "Logistics workers sorting and labeling packages in a distribution warehouse",
+              "experienceImage": "/about/about_right.webp",
+              "experienceImageAlt": "Cargo plane and freight truck operating at a logistics port",
+              "experienceValue": "25+",
+              "experienceLabel": "Years of Experience",
+              "features": [
+                {
+                  "id": "feature-customized-solutions",
+                  "icon": "FaHandHolding",
+                  "title": "Customized Solutions",
+                  "description": "Our team is available around the clock to assist you with every shipment."
+                },
+                {
+                  "id": "feature-customer-support",
+                  "icon": "FaHeadset",
+                  "title": "Customer Support 24/7",
+                  "description": "Our team is available around the clock to assist you with every shipment."
+                }
+              ],
+              "button": {
+                "text": "More About Us",
+                "url": "/about"
+              }
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "TransWorldGallery1": {
+              "subtitle": "GALLERY",
+              "title1": "Our Property",
+              "highlightedTitle": "Gallery",
+              "description": "Explore our collection of beautiful properties, modern interiors and premium amenities designed to match your lifestyle.",
+              "openImageLabel": "Open gallery image",
+              "closeLabel": "Close gallery",
+              "previousLabel": "Previous image",
+              "nextLabel": "Next image",
+              "images": [
+                {
+                  "id": "gallery-kitchen",
+                  "image": "/gallery/1.webp",
+                  "imageAlt": "Bright modern kitchen with a central island"
+                },
+                {
+                  "id": "gallery-villa",
+                  "image": "/gallery/2.webp",
+                  "imageAlt": "Contemporary luxury villa with landscaped gardens"
+                },
+                {
+                  "id": "gallery-living-room",
+                  "image": "/gallery/3.webp",
+                  "imageAlt": "Elegant neutral living room interior"
+                },
+                {
+                  "id": "gallery-lounge",
+                  "image": "/gallery/4.webp",
+                  "imageAlt": "Comfortable modern lounge with natural light"
+                },
+                {
+                  "id": "gallery-bedroom",
+                  "image": "/gallery/5.webp",
+                  "imageAlt": "Premium bedroom with balcony view"
+                },
+                {
+                  "id": "gallery-city-view",
+                  "image": "/gallery/6.webp",
+                  "imageAlt": "Bright apartment overlooking the city"
+                },
+                {
+                  "id": "gallery-family-home",
+                  "image": "/gallery/7.webp",
+                  "imageAlt": "Spacious family house surrounded by trees"
+                },
+                {
+                  "id": "gallery-pool",
+                  "image": "/gallery/8.webp",
+                  "imageAlt": "Luxury home with a private swimming pool"
+                },
+                {
+                  "id": "gallery-minimal-living",
+                  "image": "/gallery/9.webp",
+                  "imageAlt": "Minimal modern living room in soft neutral colors"
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "TransWorldServices1": {
+              "subtitle": "Our Services",
+              "title1": "What We",
+              "title2": "Offer",
+              "backgroundImage": "/service/service_bg.webp",
+              "backgroundImageAlt": "World map showing international logistics routes",
+              "linkText": "Read More",
+              "linkUrl": "/services",
+              "services": [
+                {
+                  "id": "service-freight-transportation",
+                  "title": "Freight Transportation",
+                  "description": "Flexible and efficient road transportation across local and international routes.",
+                  "icon": "FaPlane",
+                  "url": "/services"
+                },
+                {
+                  "id": "service-warehousing-distribution",
+                  "title": "Warehousing & Distribution",
+                  "description": "Modern and secure storage facilities with complete inventory management support.",
+                  "icon": "FaWarehouse",
+                  "url": "/services"
+                },
+                {
+                  "id": "service-supply-chain-management",
+                  "title": "Supply Chain Management",
+                  "description": "Integrated supply chain solutions for smoother and smarter business operations.",
+                  "icon": "FaCubes",
+                  "url": "/services"
+                },
+                {
+                  "id": "service-ecommerce-solutions",
+                  "title": "E-Commerce Solutions",
+                  "description": "Reliable and fast e-commerce logistics solutions for timely deliveries.",
+                  "icon": "FaShippingFast",
+                  "url": "/services"
+                }
+              ]
+            }
+          }
+        },
+        "HowItWorks": {
+          "variants": {
+            "TransWorldHowItWorks1": {
+              "subtitle": "How It Works",
+              "title1": "Logistics Solutions to",
+              "highlightedTitle": "Help Businesses",
+              "description": "Our streamlined process ensures your goods are transported safely and efficiently, from pickup to final delivery.",
+              "linkText": "Read More",
+              "steps": [
+                {
+                  "id": "how-step-receive-packages",
+                  "number": "01",
+                  "title": "Receive Packages",
+                  "description": "We collect your packages from your location and verify all shipment details to ensure safe and accurate handling.",
+                  "image": "/work/1.webp",
+                  "imageAlt": "Logistics team receiving and organizing packages",
+                  "icon": "FaBoxOpen",
+                  "url": "/services"
+                },
+                {
+                  "id": "how-step-transport-packages",
+                  "number": "02",
+                  "title": "Transport Packages",
+                  "description": "We plan the most efficient route and transport every shipment with reliable tracking and careful coordination.",
+                  "image": "/work/2.webp",
+                  "imageAlt": "Courier carrying a package beside a delivery van",
+                  "icon": "FaShippingFast",
+                  "url": "/services"
+                },
+                {
+                  "id": "how-step-warehouse-operation",
+                  "number": "03",
+                  "title": "Warehouse Operation",
+                  "description": "Your goods are securely stored, organized and prepared through our managed warehouse operations.",
+                  "image": "/work/3.webp",
+                  "imageAlt": "Warehouse worker sealing a cardboard package",
+                  "icon": "FaWarehouse",
+                  "url": "/services"
+                },
+                {
+                  "id": "how-step-deliver-destination",
+                  "number": "04",
+                  "title": "Deliver to Destination",
+                  "description": "We complete the final delivery safely and on time while keeping you informed throughout the journey.",
+                  "image": "/work/4.webp",
+                  "imageAlt": "Logistics workers coordinating a delivery beside a vehicle",
+                  "icon": "FaHandHolding",
+                  "url": "/services"
+                }
+              ]
+            }
+          }
+        },
+        "Service": {
+          "variants": {
+            "TransWorldService1": {
+              "subtitle": "OUR SERVICES",
+              "title1": "Our Main",
+              "highlightedTitle": "Focus",
+              "description": "We provide complete real estate solutions to help you buy, rent or sell properties with ease and confidence.",
+              "linkText": "Learn More",
+              "services": [
+                {
+                  "id": "buy-a-home",
+                  "title": "Buy",
+                  "highlightedTitle": "a Home",
+                  "description": "Find your dream home from a wide range of premium properties in the best locations that match your lifestyle and budget.",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Modern luxury home available to buy",
+                  "icon": "FaHome",
+                  "url": "/services"
+                },
+                {
+                  "id": "rent-a-home",
+                  "title": "Rent",
+                  "highlightedTitle": "a Home",
+                  "description": "Choose from a variety of rental properties in prime areas, offering comfort, convenience and great value.",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Premium apartment interior available to rent",
+                  "icon": "FaKey",
+                  "url": "/services"
+                },
+                {
+                  "id": "sell-a-home",
+                  "title": "Sell",
+                  "highlightedTitle": "a Home",
+                  "description": "Get the best value for your property with our expert guidance and hassle-free selling process.",
+                  "image": "/service/3.webp",
+                  "imageAlt": "Modern luxury property ready for sale",
+                  "icon": "FaHandshake",
+                  "url": "/services"
+                },
+                {
+                  "id": "property-investment",
+                  "title": "Invest in",
+                  "highlightedTitle": "Property",
+                  "description": "Build your wealth with high-potential real estate investments and long-term returns.",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Premium residential development for property investment",
+                  "icon": "FaChartLine",
+                  "url": "/services"
+                },
+                {
+                  "id": "property-management",
+                  "title": "Property",
+                  "highlightedTitle": "Management",
+                  "description": "Let us handle the details with professional property management services for a hassle-free experience.",
+                  "image": "/service/5.webp",
+                  "imageAlt": "Well maintained modern apartment interior",
+                  "icon": "FaTasks",
+                  "url": "/services"
+                },
+                {
+                  "id": "commercial-properties",
+                  "title": "Commercial",
+                  "highlightedTitle": "Properties",
+                  "description": "Explore premium commercial spaces for your business, from offices to retail outlets in the best locations.",
+                  "image": "/service/6.webp",
+                  "imageAlt": "Modern commercial office space",
+                  "icon": "FaBuilding",
+                  "url": "/services"
+                },
+                {
+                  "id": "land-and-plots",
+                  "title": "Land &",
+                  "highlightedTitle": "Plots",
+                  "description": "Discover prime land and plots for residential or commercial development in rapidly growing locations.",
+                  "image": "/service/7.webp",
+                  "imageAlt": "Open land parcel marked for development",
+                  "icon": "FaMapMarkerAlt",
+                  "url": "/services"
+                },
+                {
+                  "id": "new-developments",
+                  "title": "New",
+                  "highlightedTitle": "Developments",
+                  "description": "Explore newly launched residential and commercial projects with modern amenities and great investment opportunities.",
+                  "image": "/service/8.webp",
+                  "imageAlt": "New residential development surrounded by landscaping",
+                  "icon": "FaCity",
+                  "url": "/services"
+                },
+                {
+                  "id": "property-consultation",
+                  "title": "Property",
+                  "highlightedTitle": "Consultation",
+                  "description": "Get expert advice and personalized solutions for all your real estate needs.",
+                  "image": "/service/9.webp",
+                  "imageAlt": "Comfortable living room representing property consultation",
+                  "icon": "FaUserTie",
+                  "url": "/services"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "TransWorldTestimonials1": {
+              "subtitle": "Client Testimonial",
+              "title1": "What Our Customers",
+              "title2": "Say",
+              "highlightedTitle": "About Us",
+              "description": "We take pride in delivering reliable logistics solutions and building long-term relationships with our valued clients.",
+              "backgroundImage": "/service/service_bg.webp",
+              "backgroundImageAlt": "World map showing connected logistics routes",
+              "rightImage": "/team/testmonial_right.webp",
+              "rightImageAlt": "Delivery professional carrying customer packages",
+              "previousLabel": "Previous testimonials",
+              "nextLabel": "Next testimonials",
+              "slideLabel": "Show testimonial",
+              "testimonials": [
+                {
+                  "id": "testimonial-rohit-sharma",
+                  "name": "Rohit Sharma",
+                  "location": "Business Owner",
+                  "quote": "Excellent service and on-time delivery! Their team is professional, responsive, and always ensures our shipments reach safely. Highly recommended for any logistics and transportation needs.",
+                  "rating": 5,
+                  "avatar": "/team/team-01.webp"
+                },
+                {
+                  "id": "testimonial-anita-verma",
+                  "name": "Anita Verma",
+                  "location": "Supply Chain Manager",
+                  "quote": "TransWorld keeps every shipment organized and visible from pickup to delivery. Their coordination has helped our team operate with confidence.",
+                  "rating": 5,
+                  "avatar": "/team/team-02.webp"
+                },
+                {
+                  "id": "testimonial-daniel-wilson",
+                  "name": "Daniel Wilson",
+                  "location": "Warehouse Director",
+                  "quote": "Their warehouse and distribution support is reliable, responsive and carefully managed. We receive clear updates throughout every stage.",
+                  "rating": 5,
+                  "avatar": "/team/team-03.webp"
+                },
+                {
+                  "id": "testimonial-arjun-mehta",
+                  "name": "Arjun Mehta",
+                  "location": "Operations Manager",
+                  "quote": "Fast communication and dependable transportation make TransWorld an important logistics partner for our growing business.",
+                  "rating": 5,
+                  "avatar": "/team/team-04.webp"
+                },
+                {
+                  "id": "testimonial-sophia-patel",
+                  "name": "Sophia Patel",
+                  "location": "E-Commerce Founder",
+                  "quote": "Our customer deliveries are smoother and more consistent since working with TransWorld. The support team is always ready to help.",
+                  "rating": 5,
+                  "avatar": "/team/team-05.webp"
+                }
+              ]
+            }
+          }
+        },
+        "TestimonialGrid": {
+          "variants": {
+            "TransWorldTestimonialGrid1": {
+              "subtitle": "Testimonials",
+              "title1": "What Our Clients Say",
+              "title2": "About Us",
+              "description": "Trusted by thousands of investors for a smarter and better trading experience.",
+              "testimonials": [
+                {
+                  "id": "testimonial-grid-rohit-mehta",
+                  "name": "Rohit Mehta",
+                  "location": "Active Investor",
+                  "quote": "TransWorld has made shipping simple and convenient. Their logistics team is responsive, dependable and always ready to help. Highly recommended!",
+                  "rating": 5,
+                  "avatar": "/team/1.webp"
+                },
+                {
+                  "id": "testimonial-grid-priya-sharma",
+                  "name": "Priya Sharma",
+                  "location": "Equity Trader",
+                  "quote": "Great trading experience with excellent research and advisory support. The platform gives me confidence to make better decisions.",
+                  "rating": 5,
+                  "avatar": "/team/2.webp"
+                },
+                {
+                  "id": "testimonial-grid-amit-verma",
+                  "name": "Amit Verma",
+                  "location": "Long-term Investor",
+                  "quote": "The TransWorld team provides clear shipment updates and timely guidance. They have been a dependable logistics partner for our business.",
+                  "rating": 5,
+                  "avatar": "/team/3.webp"
+                },
+                {
+                  "id": "testimonial-grid-neha-kapoor",
+                  "name": "Neha Kapoor",
+                  "location": "Mutual Fund Investor",
+                  "quote": "The investment guidance is clear, practical and easy to understand. I feel more confident about building a balanced portfolio for the future.",
+                  "rating": 5,
+                  "avatar": "/team/4.webp"
+                },
+                {
+                  "id": "testimonial-grid-vikram-singh",
+                  "name": "Vikram Singh",
+                  "location": "Derivatives Trader",
+                  "quote": "Fast coordination, useful tracking updates and responsive support make TransWorld a dependable partner for our transportation needs.",
+                  "rating": 5,
+                  "avatar": "/team/5.webp"
+                },
+                {
+                  "id": "testimonial-grid-ananya-patel",
+                  "name": "Ananya Patel",
+                  "location": "New Investor",
+                  "quote": "Opening my account and starting my first investment was smooth and secure. The team supported me throughout the entire process.",
+                  "rating": 5,
+                  "avatar": "/team/6.webp"
+                },
+                {
+                  "id": "testimonial-grid-arjun-khanna",
+                  "name": "Arjun Khanna",
+                  "location": "Portfolio Investor",
+                  "quote": "The platform combines useful market information with straightforward tools that make portfolio decisions easier and more confident.",
+                  "rating": 5,
+                  "avatar": "/team/1.webp"
+                },
+                {
+                  "id": "testimonial-grid-meera-joshi",
+                  "name": "Meera Joshi",
+                  "location": "Growth Investor",
+                  "quote": "TransWorld offers professional logistics guidance and dependable support that helps our operations stay focused and on schedule.",
+                  "rating": 5,
+                  "avatar": "/team/2.webp"
+                },
+                {
+                  "id": "testimonial-grid-rahul-saxena",
+                  "name": "Rahul Saxena",
+                  "location": "Active Trader",
+                  "quote": "Research insights are timely and easy to follow. I appreciate the transparent approach and quick assistance whenever I need support.",
+                  "rating": 5,
+                  "avatar": "/team/3.webp"
+                }
+              ]
+            }
+          }
+        },
+        "Blog": {
+          "variants": {
+            "TransWorldBlog1": {
+              "subtitle": "OUR BLOG",
+              "title1": "Latest News &",
+              "highlightedTitle": "Insights",
+              "description": "Stay updated with the latest trends, industry insights, and expert tips in logistics and supply chain management.",
+              "authorPrefix": "By",
+              "readMoreText": "Read More",
+              "viewAllText": "View All Blogs",
+              "viewAllUrl": "/blog",
+              "itemsPerPage": 8,
+              "paginationLabel": "Blog page",
+              "pagination": [
+                {
+                  "id": "blog-page-1",
+                  "label": "1",
+                  "page": 1
+                }
+              ],
+              "posts": [
+                {
+                  "id": "visible-supply-chain-reasons",
+                  "category": "Logistics",
+                  "title": "Three Reasons You Can Improve Supply Chain Visibility",
+                  "description": "Discover how a strong logistics strategy can improve efficiency, reduce costs, and enhance customer satisfaction.",
+                  "date": "27 Dec, 2024",
+                  "image": "/blog/1.jpg",
+                  "imageAlt": "Cargo ship, aircraft and freight trucks supporting global logistics",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-daniel",
+                    "name": "Daniel Wilson",
+                    "role": "Logistics Strategist",
+                    "image": "/team/team-01.webp",
+                    "imageAlt": "Daniel Wilson"
+                  }
+                },
+                {
+                  "id": "resilient-logistics-network",
+                  "category": "Industry News",
+                  "title": "How to Build a More Resilient Logistics Network",
+                  "description": "Explore practical ways to keep your supply chain prepared, connected and responsive.",
+                  "date": "24 Dec, 2024",
+                  "image": "/blog/2.jpg",
+                  "imageAlt": "Freight truck moving through a modern logistics terminal",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-anita",
+                    "name": "Anita Verma",
+                    "role": "Supply Chain Manager",
+                    "image": "/team/team-02.webp",
+                    "imageAlt": "Anita Verma"
+                  }
+                },
+                {
+                  "id": "remote-fleet-monitoring",
+                  "category": "Technology",
+                  "title": "Remote Fleet Monitoring and Control in Logistics",
+                  "description": "Learn how real-time monitoring improves efficiency, safety and security across transportation fleets.",
+                  "date": "22 Dec, 2024",
+                  "image": "/blog/3.jpg",
+                  "imageAlt": "Freight truck travelling at sunset on a wet logistics route",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-arjun",
+                    "name": "Arjun Mehta",
+                    "role": "Fleet Technology Lead",
+                    "image": "/team/team-03.webp",
+                    "imageAlt": "Arjun Mehta"
+                  }
+                },
+                {
+                  "id": "shipping-partner-guide",
+                  "category": "Tips & Guides",
+                  "title": "Your Guide to Choosing the Right Shipping Partner",
+                  "description": "Key factors to consider when choosing a reliable logistics partner for your business.",
+                  "date": "20 Dec, 2024",
+                  "image": "/blog/4.jpg",
+                  "imageAlt": "Container truck and cargo ship operating at a busy port",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-sophia",
+                    "name": "Sophia Patel",
+                    "role": "Shipping Consultant",
+                    "image": "/team/team-04.webp",
+                    "imageAlt": "Sophia Patel"
+                  }
+                },
+                {
+                  "id": "global-logistics-services",
+                  "category": "Supply Chain",
+                  "title": "Delivering the Best Global Logistics Services",
+                  "description": "How smart logistics solutions are shaping the future of global trade and transportation.",
+                  "date": "18 Dec, 2024",
+                  "image": "/blog/5.jpg",
+                  "imageAlt": "Logistics professional working at a freight facility",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-michael",
+                    "name": "Michael Brown",
+                    "role": "Global Operations Lead",
+                    "image": "/team/team-05.webp",
+                    "imageAlt": "Michael Brown"
+                  }
+                },
+                {
+                  "id": "ocean-freight-efficiency",
+                  "category": "Ocean Freight",
+                  "title": "Improving Efficiency Across Ocean Freight Operations",
+                  "description": "Discover how better planning and shipment visibility support dependable maritime logistics.",
+                  "date": "15 Dec, 2024",
+                  "image": "/blog/6.jpg",
+                  "imageAlt": "Container ship transporting cargo across open water",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-emily",
+                    "name": "Emily Carter",
+                    "role": "Ocean Freight Specialist",
+                    "image": "/team/team-06.webp",
+                    "imageAlt": "Emily Carter"
+                  }
+                },
+                {
+                  "id": "rail-freight-future",
+                  "category": "Rail Freight",
+                  "title": "Why Rail Freight Matters for Modern Supply Chains",
+                  "description": "See how rail transportation supports efficient long-distance movement and sustainable growth.",
+                  "date": "12 Dec, 2024",
+                  "image": "/blog/7.jpg",
+                  "imageAlt": "Freight train carrying cargo through a dramatic landscape",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-james",
+                    "name": "James Walker",
+                    "role": "Rail Operations Manager",
+                    "image": "/team/team-07.webp",
+                    "imageAlt": "James Walker"
+                  }
+                },
+                {
+                  "id": "smart-warehouse-operations",
+                  "category": "Warehousing",
+                  "title": "Building Smarter and Safer Warehouse Operations",
+                  "description": "Learn how connected systems and careful planning improve warehouse productivity and control.",
+                  "date": "10 Dec, 2024",
+                  "image": "/blog/8.jpg",
+                  "imageAlt": "Large warehouse with organized cargo and handling equipment",
+                  "url": "/blog",
+                  "author": {
+                    "id": "blog-author-olivia",
+                    "name": "Olivia Martin",
+                    "role": "Warehouse Operations Lead",
+                    "image": "/team/team-08.webp",
+                    "imageAlt": "Olivia Martin"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "TransWorldWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "title1": "Transportation Services We Are",
+              "title2": "Often Chosen",
+              "description": "As a trusted logistics service provider, we play a vital role in the global supply chain by efficiently managing the movement of goods from origin to final destination. Our commitment, network and expertise make us the preferred choice for businesses worldwide.",
+              "clientCount": "1500+",
+              "clientLabel": "Happy Clients",
+              "clientAvatars": [
+                {
+                  "id": "client-avatar-1",
+                  "image": "/team/team-01.webp",
+                  "imageAlt": "TransWorld logistics client"
+                },
+                {
+                  "id": "client-avatar-2",
+                  "image": "/team/team-02.webp",
+                  "imageAlt": "TransWorld supply chain client"
+                },
+                {
+                  "id": "client-avatar-3",
+                  "image": "/team/team-03.webp",
+                  "imageAlt": "TransWorld freight client"
+                },
+                {
+                  "id": "client-avatar-4",
+                  "image": "/team/team-04.webp",
+                  "imageAlt": "TransWorld warehouse client"
+                },
+                {
+                  "id": "client-avatar-5",
+                  "image": "/team/team-05.webp",
+                  "imageAlt": "TransWorld transportation client"
+                }
+              ],
+              "features": [
+                {
+                  "id": "why-global-logistics",
+                  "icon": "FaGlobeAmericas",
+                  "title": "Global Logistics Operation",
+                  "description": "A trusted logistics partner connects your business to global markets with seamless operations."
+                },
+                {
+                  "id": "why-safety-security",
+                  "icon": "FaShieldAlt",
+                  "title": "Safety & Security Delivery",
+                  "description": "We ensure safe and secure handling of your goods at every step of the journey."
+                },
+                {
+                  "id": "why-professional-management",
+                  "icon": "FaAward",
+                  "title": "Professional Logistics Management",
+                  "description": "Our experienced team manages logistics operations with efficiency and expertise."
+                },
+                {
+                  "id": "why-real-time-tracking",
+                  "icon": "FaMapMarkedAlt",
+                  "title": "Real Time Location Tracking",
+                  "description": "Stay updated with real-time tracking and complete visibility of your shipment."
+                }
+              ],
+              "imageMain": "/banner/hero_1.webp",
+              "imageAlt": "Freight truck, cargo aircraft and shipping port representing global transportation",
+              "patternImage": "/service/service_bg.webp",
+              "patternImageAlt": "World map showing international logistics connections",
+              "videoUrl": "https://youtu.be/ZtsU1zECg70",
+              "videoLabel": "Watch our logistics video",
+              "closeVideoLabel": "Close video"
+            },
+            "TransWorldWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "title1": "Transportation Services We Are",
+              "title2": "Often Chosen",
+              "description": "As a trusted logistics service provider, we play a vital role in the global supply chain by efficiently managing the movement of goods from origin to final destination. Our commitment, network and expertise make us the preferred choice for businesses worldwide.",
+              "clientCount": "1500+",
+              "clientLabel": "Happy Clients",
+              "clientAvatars": [
+                {
+                  "id": "about-client-avatar-1",
+                  "image": "/team/team-01.webp",
+                  "imageAlt": "TransWorld logistics client"
+                },
+                {
+                  "id": "about-client-avatar-2",
+                  "image": "/team/team-02.webp",
+                  "imageAlt": "TransWorld supply chain client"
+                },
+                {
+                  "id": "about-client-avatar-3",
+                  "image": "/team/team-03.webp",
+                  "imageAlt": "TransWorld freight client"
+                },
+                {
+                  "id": "about-client-avatar-4",
+                  "image": "/team/team-04.webp",
+                  "imageAlt": "TransWorld warehouse client"
+                },
+                {
+                  "id": "about-client-avatar-5",
+                  "image": "/team/team-05.webp",
+                  "imageAlt": "TransWorld transportation client"
+                }
+              ],
+              "features": [
+                {
+                  "id": "about-why-global-logistics",
+                  "icon": "FaGlobeAmericas",
+                  "title": "Global Logistics Operation",
+                  "description": "A trusted logistics partner connects your business to global markets with seamless operations."
+                },
+                {
+                  "id": "about-why-safety-security",
+                  "icon": "FaShieldAlt",
+                  "title": "Safety & Security Delivery",
+                  "description": "We ensure safe and secure handling of your goods at every step of the journey."
+                },
+                {
+                  "id": "about-why-professional-management",
+                  "icon": "FaAward",
+                  "title": "Professional Logistics Management",
+                  "description": "Our experienced team manages logistics operations with efficiency and expertise."
+                },
+                {
+                  "id": "about-why-real-time-tracking",
+                  "icon": "FaMapMarkedAlt",
+                  "title": "Real Time Location Tracking",
+                  "description": "Stay updated with real-time tracking and complete visibility of your shipment."
+                }
+              ],
+              "imageMain": "/banner/hero_1.webp",
+              "imageAlt": "Freight truck, cargo aircraft and shipping port representing global transportation",
+              "patternImage": "/service/service_bg.webp",
+              "patternImageAlt": "World map showing international logistics connections",
+              "videoUrl": "https://youtu.be/ZtsU1zECg70",
+              "videoLabel": "Watch our logistics video",
+              "closeVideoLabel": "Close video"
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "TransWorldContact1": {
+              "backgroundImage": "/property/1.webp",
+              "backgroundImageAlt": "Luxury modern home beside the contact form",
+              "intro": {
+                "eyebrow": "GET IN TOUCH",
+                "title": "Contact",
+                "titleHighlight": "Us",
+                "description": "We're here to help you with all your real estate needs. Feel free to reach out to our team for any queries or assistance."
+              },
+              "form": {
+                "eyebrow": "SEND US A MESSAGE",
+                "title": "Get In",
+                "titleHighlight": "Touch",
+                "description": "Have a question or need expert advice? Fill out the form below and our team will get back to you shortly.",
+                "fullNamePlaceholder": "Your Name",
+                "phonePlaceholder": "Your Phone",
+                "emailPlaceholder": "Your Email",
+                "subjectPlaceholder": "Subject",
+                "messagePlaceholder": "Your Message",
+                "buttonText": "Send Message",
+                "successMessage": "Thank you. Your message has been submitted successfully."
+              },
+              "contactPanel": {
+                "eyebrow": "CONTACT INFORMATION",
+                "title1": "Contact",
+                "titleHighlight": "Us",
+                "description": "We're always ready to assist you. Reach out through the details below or send us a message using the contact form.",
+                "items": [
+                  {
+                    "id": "contact-info-address",
+                    "icon": "FaMapMarkerAlt",
+                    "title": "Address",
+                    "lines": [
+                      {
+                        "id": "contact-office-address",
+                        "text": "123 Main St, New York, NY, USA"
+                      }
+                    ],
+                    "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+                  },
+                  {
+                    "id": "contact-info-phone",
+                    "icon": "FaPhoneAlt",
+                    "title": "Phone",
+                    "lines": [
+                      {
+                        "id": "contact-phone-number",
+                        "text": "+1 000000000"
+                      }
+                    ],
+                    "url": "tel:+1000000000"
+                  },
+                  {
+                    "id": "contact-info-email",
+                    "icon": "FaEnvelope",
+                    "title": "Email",
+                    "lines": [
+                      {
+                        "id": "contact-email-address",
+                        "text": "info@xyz.com"
+                      }
+                    ],
+                    "url": "mailto:info@xyz.com"
+                  },
+                  {
+                    "id": "contact-info-hours",
+                    "icon": "FaClock",
+                    "title": "Office Hours",
+                    "lines": [
+                      {
+                        "id": "contact-hours-weekday",
+                        "text": "Mon - Sat: 9:00 AM - 6:00 PM"
+                      },
+                      {
+                        "id": "contact-hours-sunday",
+                        "text": "Sunday: Closed"
+                      }
+                    ]
+                  }
+                ],
+                "socialTitle": "Follow Us",
+                "socialLinks": [
+                  {
+                    "id": "contact-social-facebook",
+                    "icon": "FaFacebookF",
+                    "label": "Facebook",
+                    "url": "https://facebook.com"
+                  },
+                  {
+                    "id": "contact-social-x",
+                    "icon": "FaXTwitter",
+                    "label": "X",
+                    "url": "https://x.com"
+                  },
+                  {
+                    "id": "contact-social-instagram",
+                    "icon": "FaInstagram",
+                    "label": "Instagram",
+                    "url": "https://instagram.com"
+                  },
+                  {
+                    "id": "contact-social-linkedin",
+                    "icon": "FaLinkedinIn",
+                    "label": "LinkedIn",
+                    "url": "https://linkedin.com"
+                  }
+                ]
+              },
+              "location": {
+                "eyebrow": "OUR LOCATION",
+                "title": "Visit Our Office",
+                "description": "123 Main St, New York, NY, USA",
+                "buttonText": "Get Directions",
+                "buttonUrl": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA",
+                "mapUrl": "https://www.google.com/maps?q=123+Main+St,+New+York,+NY,+USA&output=embed",
+                "mapTitle": "Map showing the TransWorld office location in New York"
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "TransWorldTopBar1",
+          "Header": "TransWorldHeader1",
+          "Footer": "TransWorldFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "TransWorldHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "TransWorldAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "TransWorldServices1"
+              },
+              {
+                "key": "HowItWorks",
+                "component": "TransWorldHowItWorks1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "TransWorldWhyChooseUs1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "TransWorldTestimonials1"
+              },
+              {
+                "key": "Blog",
+                "component": "TransWorldBlog1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "TransWorldAboutUs1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "TransWorldAboutWhyChooseUs1"
+              },
+              {
+                "key": "HowItWorks",
+                "component": "TransWorldHowItWorks1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Gallery",
+                "component": "TransWorldGallery1"
+              }
+            ]
+          },
+          "testimonials": {
+            "components": [
+              {
+                "key": "TestimonialGrid",
+                "component": "TransWorldTestimonialGrid1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Service",
+                "component": "TransWorldService1"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Blog",
+                "component": "BlogGrid"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "TransWorldContact1"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        "TopBar",
+        "Header",
+        "HeroSection",
+        "AboutUs",
+        "Services",
+        "HowItWorksSection",
+        "WhyChooseUs",
+        "Testimonials",
+        "BlogSection",
+        "Footer"
+      ]
+    },
+    "about": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "AboutUsSection",
+        "WhyChooseUsSection",
+        "HowItWorksSection",
+        "Footer"
+      ]
+    },
+    "gallery": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "GallerySection",
+        "Footer"
+      ]
+    },
+    "testimonials": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "TestimonialGrid",
+        "Footer"
+      ]
+    },
+    "services": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "ServiceGrid",
+        "Footer"
+      ]
+    },
+    "blog": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "BlogGrid",
+        "Footer"
+      ]
+    },
+    "contact": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "ContactSection",
+        "Footer"
+      ]
+    },
+    "not-found": {
+      "components": [
+        "TopBar",
+        "Header",
+        "NotFoundSection",
+        "Footer"
+      ]
+    }
+  }
+}
