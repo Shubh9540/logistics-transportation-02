@@ -23,7 +23,7 @@ export default function Page() {
       <div className="relative">
         <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} />
         <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
-        <Breadcrumb data={commonData.aboutBreadcrumb} />
+        <Breadcrumb data={commonData.aboutBreadcrumb} ui={commonData.globalUI} />
       </div>
       <AboutUsSection data={sectionData.AboutUs?.variants?.TransWorldAboutUs1} hideButton={true} />
       <WhyChooseUsSection data={sectionData.whyChooseUs?.variants?.TransWorldWhyChooseUs1} />

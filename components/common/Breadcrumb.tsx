@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { BreadcrumbProps } from '@/types/templates.types';
 
-export const Breadcrumb = ({ data }: BreadcrumbProps) => {
-  if (!data) return null;
+export const Breadcrumb = ({ data, ui }: BreadcrumbProps) => {
+  if (!data || !ui) return null;
 
   return (
     <section className="bg-white px-3 pb-3 pt-3 sm:px-5 sm:pb-5 sm:pt-5">
@@ -28,7 +28,7 @@ export const Breadcrumb = ({ data }: BreadcrumbProps) => {
                 ) : (
                   <span>{path.label}</span>
                 )}
-                {index < data.paths.length - 1 && <span className="text-white/90">/</span>}
+                {index < data.paths.length - 1 && <span className="text-white/90">{ui.breadcrumbSeparator}</span>}
               </React.Fragment>
             ))}
           </div>

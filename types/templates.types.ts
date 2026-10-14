@@ -8,6 +8,7 @@ export interface HeaderNavLink {
 export interface HeaderData {
   logo: string;
   logoAlt: string;
+  logoUrl: string;
   navLinksLeft: HeaderNavLink[];
   navLinksRight: HeaderNavLink[];
   contactButton: { text: string; url: string; icon: string };
@@ -45,30 +46,143 @@ export interface BreadcrumbData {
   paths: BreadcrumbPath[];
 }
 
-export interface BreadcrumbProps {
-  data?: BreadcrumbData;
+export interface GlobalUIData {
+  breadcrumbSeparator: string;
 }
 
-export interface GalleryItem {
+export interface BreadcrumbProps {
+  data?: BreadcrumbData;
+  ui?: GlobalUIData;
+}
+
+export interface GalleryTab {
   id: string;
+  label: string;
+}
+
+export interface PhotoGalleryItem {
+  id: string;
+  categoryId: string;
   image: string;
   imageAlt: string;
 }
 
-export interface GalleryData {
+export interface PhotoGalleryData {
   subtitle: string;
   title1: string;
   highlightedTitle: string;
   description: string;
+  backgroundImage: string;
+  backgroundImageAlt: string;
+  allTabId: string;
   openImageLabel: string;
   closeLabel: string;
   previousLabel: string;
   nextLabel: string;
-  images: GalleryItem[];
+  tabs: GalleryTab[];
+  images: PhotoGalleryItem[];
 }
 
-export interface GallerySectionProps {
-  data?: GalleryData;
+export interface PhotoGalleryProps {
+  data?: PhotoGalleryData;
+}
+
+export interface VideoGalleryItem {
+  id: string;
+  title: string;
+  duration: string;
+  thumbnail: string;
+  thumbnailAlt: string;
+  videoUrl: string;
+}
+
+export interface VideoGalleryData {
+  subtitle: string;
+  title1: string;
+  highlightedTitle: string;
+  description: string;
+  backgroundImage: string;
+  backgroundImageAlt: string;
+  playLabel: string;
+  closeLabel: string;
+  videos: VideoGalleryItem[];
+}
+
+export interface VideoGalleryProps {
+  data?: VideoGalleryData;
+}
+
+export interface IndustryItem {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  icon: string;
+}
+
+export interface IndustriesData {
+  subtitle: string;
+  title1: string;
+  title2: string;
+  highlightedTitle: string;
+  description: string;
+  industries: IndustryItem[];
+}
+
+export interface IndustriesSectionProps {
+  data?: IndustriesData;
+}
+
+export interface TeamSocialLink {
+  id: string;
+  icon: string;
+  label: string;
+  url: string;
+}
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  role: string;
+  image: string;
+  imageAlt: string;
+}
+
+export interface TeamData {
+  subtitle: string;
+  title1: string;
+  highlightedTitle: string;
+  description: string;
+  backgroundImage: string;
+  backgroundImageAlt: string;
+  socialLinks: TeamSocialLink[];
+  members: TeamMember[];
+}
+
+export interface TeamSectionProps {
+  data?: TeamData;
+}
+
+export interface FaqItem {
+  id: string;
+  number: string;
+  question: string;
+  answer: string;
+}
+
+export interface FaqData {
+  subtitle: string;
+  title1: string;
+  highlightedTitle: string;
+  description: string;
+  expandLabel: string;
+  collapseLabel: string;
+  items: FaqItem[];
+}
+
+export interface FaqSectionProps {
+  data?: FaqData;
 }
 
 export interface HeroButtonData {
@@ -194,6 +308,7 @@ export interface ServiceGridData {
   title1: string;
   highlightedTitle: string;
   description: string;
+  backgroundImage: string;
   linkText: string;
   services: ServiceGridItem[];
 }
@@ -236,6 +351,7 @@ export interface ServiceDetailItem {
   id: string;
   title: string;
   icon: string;
+  breadcrumb: BreadcrumbData;
   heroImage: string;
   heroImageAlt: string;
   heroTitle: string;
@@ -271,6 +387,7 @@ export interface ServiceDetailProcessStep {
 
 export interface ServiceDetailData {
   navigationLabel: string;
+  backgroundImage: string;
   services: ServiceDetailItem[];
   navigation: ServiceDetailNavigationItem[];
   assistance: ServiceDetailAssistanceData;
@@ -350,8 +467,6 @@ export interface FooterData {
   servicesTitle: string;
   galleryTitle: string;
   galleryUrl: string;
-  backToTopLabel: string;
-  backToTopUrl: string;
   socialLinks: { id: string; icon: string; label: string; url: string }[];
   quickLinks: { id: string; label: string; url: string }[];
   serviceLinks: { id: string; label: string; url: string }[];
@@ -391,10 +506,6 @@ export interface TemplateComponentsData {
     Footer: string;
   };
   pages: Record<string, TemplateComponentPage>;
-}
-
-export interface PageComponentRegistry {
-  components: string[];
 }
 
 export interface WhyChooseUsFeature {
@@ -445,50 +556,36 @@ export interface ContactInfoItem {
   url?: string;
 }
 
-export interface ContactSocialLink {
-  id: string;
-  icon: string;
-  label: string;
-  url: string;
-}
-
 export interface ContactData {
-  backgroundImage: string;
-  backgroundImageAlt: string;
   intro: {
     eyebrow: string;
-    title: string;
+    title1: string;
     titleHighlight: string;
-    description: string;
+    title2: string;
   };
   form: {
-    eyebrow: string;
-    title: string;
+    title1: string;
     titleHighlight: string;
-    description: string;
-    fullNamePlaceholder: string;
+    firstNamePlaceholder: string;
+    lastNamePlaceholder: string;
     phonePlaceholder: string;
     emailPlaceholder: string;
-    subjectPlaceholder: string;
     messagePlaceholder: string;
+    consentLabel: string;
     buttonText: string;
     successMessage: string;
   };
   contactPanel: {
-    eyebrow: string;
+    image: string;
+    imageAlt: string;
     title1: string;
     titleHighlight: string;
-    description: string;
     items: ContactInfoItem[];
-    socialTitle: string;
-    socialLinks: ContactSocialLink[];
   };
   location: {
     eyebrow: string;
-    title: string;
-    description: string;
-    buttonText: string;
-    buttonUrl: string;
+    title1: string;
+    titleHighlight: string;
     mapUrl: string;
     mapTitle: string;
   };
@@ -496,6 +593,71 @@ export interface ContactData {
 
 export interface ContactSectionProps {
   data?: ContactData;
+}
+
+export interface QuoteFormOption {
+  id: string;
+  label: string;
+  value: string;
+}
+
+export interface QuoteBenefit {
+  id: string;
+  icon: string;
+  title: string;
+}
+
+export interface QuoteData {
+  intro: {
+    eyebrow: string;
+    title1: string;
+    titleHighlight: string;
+    description: string;
+  };
+  visual: {
+    image: string;
+    imageAlt: string;
+    eyebrow: string;
+    title1: string;
+    titleHighlight: string;
+    benefits: QuoteBenefit[];
+  };
+  form: {
+    title1: string;
+    titleHighlight: string;
+    description: string;
+    fullNameLabel: string;
+    fullNamePlaceholder: string;
+    companyNameLabel: string;
+    companyNamePlaceholder: string;
+    phoneLabel: string;
+    phonePlaceholder: string;
+    emailLabel: string;
+    emailPlaceholder: string;
+    transportationLabel: string;
+    transportationPlaceholder: string;
+    pickupLabel: string;
+    pickupPlaceholder: string;
+    deliveryLabel: string;
+    deliveryPlaceholder: string;
+    cargoLabel: string;
+    cargoPlaceholder: string;
+    weightLabel: string;
+    weightPlaceholder: string;
+    dateLabel: string;
+    requirementsLabel: string;
+    requirementsPlaceholder: string;
+    messageLabel: string;
+    messagePlaceholder: string;
+    buttonText: string;
+    successMessage: string;
+    transportationOptions: QuoteFormOption[];
+    cargoOptions: QuoteFormOption[];
+  };
+}
+
+export interface QuoteSectionProps {
+  data?: QuoteData;
 }
 
 export interface BlogAuthor {
@@ -515,7 +677,32 @@ export interface BlogPost {
   image: string;
   imageAlt: string;
   url: string;
-  author: BlogAuthor;
+  authorId: string;
+  breadcrumb: BreadcrumbData;
+}
+
+export interface BlogDetailFeature {
+  id: string;
+  text: string;
+}
+
+export interface BlogDetailSectionItem {
+  id: string;
+  number: string;
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  features: BlogDetailFeature[];
+}
+
+export interface BlogDetailContent {
+  recentPostsTitle: string;
+  authorLabel: string;
+  quoteText: string;
+  conclusionTitle: string;
+  conclusionText: string;
+  sections: BlogDetailSectionItem[];
 }
 
 export interface BlogData {
@@ -523,14 +710,20 @@ export interface BlogData {
   title1: string;
   highlightedTitle: string;
   description: string;
+  backgroundImage: string;
+  backgroundImageAlt: string;
   authorPrefix: string;
   readMoreText: string;
   viewAllText: string;
   viewAllUrl: string;
   itemsPerPage: number;
   paginationLabel: string;
+  previousPageLabel: string;
+  nextPageLabel: string;
   pagination: PaginationItem[];
+  authors: BlogAuthor[];
   posts: BlogPost[];
+  detail: BlogDetailContent;
 }
 
 export interface BlogSectionProps {
@@ -539,6 +732,15 @@ export interface BlogSectionProps {
 
 export interface BlogGridProps {
   data?: BlogData;
+}
+
+export interface BlogDetailSectionProps {
+  data?: BlogData;
+  postId: string;
+}
+
+export interface BlogDetailsPageProps {
+  params: Promise<{ id: string }>;
 }
 
 export interface SiteMetadataData {
@@ -550,13 +752,17 @@ export interface SiteMetadataData {
 export interface TransWorldTemplateData {
   common: {
     metadata: SiteMetadataData;
+    globalUI: GlobalUIData;
     aboutBreadcrumb?: BreadcrumbData;
     servicesBreadcrumb?: BreadcrumbData;
-    serviceDetailsBreadcrumb?: BreadcrumbData;
+    industriesBreadcrumb?: BreadcrumbData;
+    teamBreadcrumb?: BreadcrumbData;
+    faqsBreadcrumb?: BreadcrumbData;
     contactBreadcrumb?: BreadcrumbData;
     galleryBreadcrumb?: BreadcrumbData;
     testimonialsBreadcrumb?: BreadcrumbData;
     blogsBreadcrumb?: BreadcrumbData;
+    quoteBreadcrumb?: BreadcrumbData;
     notFound?: NotFoundData;
     Footer?: FooterData;
   };
@@ -568,7 +774,11 @@ export interface TransWorldTemplateData {
         Header?: { variants?: { TransWorldHeader1?: HeaderData } };
         Hero?: { variants?: { TransWorldHero1?: HeroData } };
         AboutUs?: { variants?: { TransWorldAboutUs1?: AboutUsData } };
-        Gallery?: { variants?: { TransWorldGallery1?: GalleryData } };
+        PhotoGallery?: { variants?: { TransWorldPhotoGallery1?: PhotoGalleryData } };
+        VideoGallery?: { variants?: { TransWorldVideoGallery1?: VideoGalleryData } };
+        Industries?: { variants?: { TransWorldIndustries1?: IndustriesData } };
+        Team?: { variants?: { TransWorldTeam1?: TeamData } };
+        Faq?: { variants?: { TransWorldFaq1?: FaqData } };
         Services?: { variants?: { TransWorldServices1?: ServicesData } };
         HowItWorks?: { variants?: { TransWorldHowItWorks1?: HowItWorksData } };
         Service?: { variants?: { TransWorldService1?: ServiceGridData } };
@@ -578,8 +788,8 @@ export interface TransWorldTemplateData {
         Blog?: { variants?: { TransWorldBlog1?: BlogData } };
         whyChooseUs?: { variants?: { TransWorldWhyChooseUs1?: WhyChooseUsData } };
         contact?: { variants?: { TransWorldContact1?: ContactData } };
+        Quote?: { variants?: { TransWorldQuote1?: QuoteData } };
       };
     };
   };
-  pages: Record<string, PageComponentRegistry>;
 }

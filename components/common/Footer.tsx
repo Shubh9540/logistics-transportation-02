@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  FaArrowUp,
   FaChevronRight,
   FaEnvelope,
   FaFacebookF,
@@ -149,15 +148,8 @@ export const Footer = ({ data }: FooterProps) => {
       </div>
 
       <div className="relative border-t border-white/20">
-        <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-5 px-4 py-5 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-[1440px] px-4 py-5 sm:px-6 lg:px-8">
           <p className="text-xs leading-5 text-white/80 sm:text-sm">{data.copyrightText}</p>
-          <Link
-            href={data.backToTopUrl}
-            aria-label={data.backToTopLabel}
-            className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-[var(--color-accent)] text-white transition-transform duration-300 hover:-translate-y-1"
-          >
-            <FaArrowUp aria-hidden="true" />
-          </Link>
         </div>
       </div>
     </footer>

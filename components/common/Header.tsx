@@ -26,7 +26,7 @@ export const Header = ({ data }: HeaderProps) => {
   return (
     <header className="absolute inset-x-0 top-0 z-50 w-full px-5 pt-6 sm:px-8 sm:pt-8 lg:px-10">
       <div className="mx-auto flex w-full max-w-[1280px] items-center justify-between gap-5">
-        <Link href="/" aria-label={data.logoAlt} className="flex shrink-0 items-center">
+        <Link href={data.logoUrl} aria-label={data.logoAlt} className="flex shrink-0 items-center">
           <img src={data.logo} alt={data.logoAlt} className="h-11 w-auto object-contain sm:h-14 lg:h-16" />
         </Link>
 

@@ -20,7 +20,7 @@ export default function TestimonialsPage() {
     <main className="flex min-h-screen flex-col bg-white">
       <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} />
       <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
-      <Breadcrumb data={commonData.testimonialsBreadcrumb} />
+        <Breadcrumb data={commonData.testimonialsBreadcrumb} ui={commonData.globalUI} />
       <TestimonialGrid data={sectionData.TestimonialGrid?.variants?.TransWorldTestimonialGrid1} />
       <Footer data={commonData.Footer} />
     </main>

@@ -18,9 +18,11 @@ export default function ContactPage() {
 
   return (
     <main className="bg-white">
-      <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} logoData={sectionData.Header?.variants?.TransWorldHeader1} />
-      <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
-      <Breadcrumb data={commonData.contactBreadcrumb} />
+      <div className="relative">
+        <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} logoData={sectionData.Header?.variants?.TransWorldHeader1} />
+        <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
+        <Breadcrumb data={commonData.contactBreadcrumb} ui={commonData.globalUI} />
+      </div>
       
       <ContactSection data={sectionData.contact?.variants?.TransWorldContact1} />
 

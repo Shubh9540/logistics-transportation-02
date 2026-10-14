@@ -20,9 +20,11 @@ export default function ServicesPage() {
 
   return (
     <main className="flex min-h-screen flex-col bg-white">
-      <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} />
-      <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
-      <Breadcrumb data={commonData.servicesBreadcrumb} />
+      <div className="relative">
+        <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} />
+        <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
+        <Breadcrumb data={commonData.servicesBreadcrumb} ui={commonData.globalUI} />
+      </div>
       <ServiceGrid data={sectionData.Service?.variants?.TransWorldService1} />
       <WhyChooseUsSection data={sectionData.whyChooseUs?.variants?.TransWorldWhyChooseUs1} />
       <TestimonialSection data={sectionData.Testimonials?.variants?.TransWorldTestimonials1} />

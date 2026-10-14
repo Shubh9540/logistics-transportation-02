@@ -18,10 +18,10 @@ const renderButtonIcon = (button: HeroButtonData) => {
 export const HeroSection = ({ data }: HeroSectionProps) => {
   const [activeSlide, setActiveSlide] = useState(0);
   const slides = data?.slides || [];
-  const autoplayDelay = data?.autoplayDelay || 5500;
+  const autoplayDelay = data?.autoplayDelay;
 
   useEffect(() => {
-    if (slides.length <= 1) return;
+    if (slides.length <= 1 || !autoplayDelay) return;
 
     const timer = window.setInterval(() => {
       setActiveSlide((currentSlide) => (currentSlide + 1) % slides.length);

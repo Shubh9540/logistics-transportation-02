@@ -5,6 +5,9 @@
       "description": "Reliable logistics and transportation solutions for freight, warehousing, supply chain and e-commerce delivery with TransWorld.",
       "icon": "/main logo/logo.webp"
     },
+    "globalUI": {
+      "breadcrumbSeparator": "/"
+    },
     "Footer": {
       "logo": "/main logo/logo.webp",
       "logoAlt": "TransWorld Logistics & Transportation Logo",
@@ -20,8 +23,6 @@
       "servicesTitle": "Our Services",
       "galleryTitle": "Gallery",
       "galleryUrl": "/gallery",
-      "backToTopLabel": "Back to top",
-      "backToTopUrl": "#",
       "socialLinks": [
         {
           "id": "social-facebook",
@@ -71,6 +72,16 @@
           "url": "/services"
         },
         {
+          "id": "quick-industries",
+          "label": "Industries We Serve",
+          "url": "/industries"
+        },
+        {
+          "id": "quick-team",
+          "label": "Our Team",
+          "url": "/team"
+        },
+        {
           "id": "quick-gallery",
           "label": "Gallery",
           "url": "/gallery"
@@ -83,7 +94,7 @@
         {
           "id": "quick-faqs",
           "label": "FAQs",
-          "url": "/testimonials"
+          "url": "/faqs"
         },
         {
           "id": "quick-contact",
@@ -93,39 +104,34 @@
       ],
       "serviceLinks": [
         {
-          "id": "footer-service-freight",
-          "label": "Freight Transportation",
-          "url": "/services"
+          "id": "footer-service-international-shipping",
+          "label": "International Shipping",
+          "url": "/services/international-shipping"
         },
         {
           "id": "footer-service-warehouse",
-          "label": "Warehousing & Distribution",
-          "url": "/services"
+          "label": "Warehousing & Storage",
+          "url": "/services/warehousing-storage"
         },
         {
-          "id": "footer-service-supply-chain",
-          "label": "Supply Chain Management",
-          "url": "/services"
+          "id": "footer-service-customs",
+          "label": "Customs Clearance",
+          "url": "/services/customs-clearance"
         },
         {
-          "id": "footer-service-ecommerce",
-          "label": "E-Commerce Solutions",
-          "url": "/services"
+          "id": "footer-service-rail",
+          "label": "Rail Freight",
+          "url": "/services/rail-freight"
         },
         {
           "id": "footer-service-road",
           "label": "Road Transportation",
-          "url": "/services"
-        },
-        {
-          "id": "footer-service-air",
-          "label": "Air Freight",
-          "url": "/services"
+          "url": "/services/road-transportation"
         },
         {
           "id": "footer-service-ocean",
           "label": "Ocean Freight",
-          "url": "/services"
+          "url": "/services/ocean-freight"
         }
       ],
       "galleryImages": [
@@ -221,6 +227,51 @@
         }
       ]
     },
+    "industriesBreadcrumb": {
+      "title": "Industries We Serve",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-industries-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-industries-current",
+          "label": "Industries We Serve"
+        }
+      ]
+    },
+    "teamBreadcrumb": {
+      "title": "Our Team",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-team-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-team-current",
+          "label": "Our Team"
+        }
+      ]
+    },
+    "faqsBreadcrumb": {
+      "title": "Frequently Asked Questions",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-faqs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-faqs-current",
+          "label": "Frequently Asked Questions"
+        }
+      ]
+    },
     "contactBreadcrumb": {
       "title": "Contact Us",
       "bgImage": "/main logo/breadcrumb.webp",
@@ -236,8 +287,23 @@
         }
       ]
     },
+    "quoteBreadcrumb": {
+      "title": "Get A Quote",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-quote-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-quote-current",
+          "label": "Get A Quote"
+        }
+      ]
+    },
     "galleryBreadcrumb": {
-      "title": "Gallery",
+      "title": "Our Gallery",
       "bgImage": "/main logo/breadcrumb.webp",
       "paths": [
         {
@@ -247,7 +313,7 @@
         },
         {
           "id": "breadcrumb-gallery-current",
-          "label": "Gallery"
+          "label": "Our Gallery"
         }
       ]
     },
@@ -267,7 +333,7 @@
       ]
     },
     "blogsBreadcrumb": {
-      "title": "Blogs",
+      "title": "Our Blogs",
       "bgImage": "/main logo/breadcrumb.webp",
       "paths": [
         {
@@ -277,7 +343,7 @@
         },
         {
           "id": "breadcrumb-blogs-current",
-          "label": "Blogs"
+          "label": "Our Blogs"
         }
       ]
     }
@@ -293,6 +359,7 @@
             "TransWorldHeader1": {
               "logo": "/main logo/logo.webp",
               "logoAlt": "TransWorld Logistics & Transportation",
+              "logoUrl": "/",
               "navLinksLeft": [
                 {
                   "id": "nl-home",
@@ -308,6 +375,16 @@
                   "id": "nl-services",
                   "label": "Our Services",
                   "url": "/services"
+                },
+                {
+                  "id": "nl-industries",
+                  "label": "Industries We Serve",
+                  "url": "/industries"
+                },
+                {
+                  "id": "nl-team",
+                  "label": "Our Team",
+                  "url": "/team"
                 }
               ],
               "navLinksRight": [
@@ -319,13 +396,12 @@
                 {
                   "id": "nl-blog",
                   "label": "Blog",
-                  "url": "/blog",
-                  "hasDropdown": true
+                  "url": "/blog"
                 },
                 {
                   "id": "nl-faqs",
                   "label": "FAQs",
-                  "url": "/testimonials"
+                  "url": "/faqs"
                 },
                 {
                   "id": "nl-contact",
@@ -335,7 +411,7 @@
               ],
               "contactButton": {
                 "text": "Get A Quote",
-                "url": "/contact",
+                "url": "/get-a-quote",
                 "icon": "FaArrowUp"
               },
               "openMenuLabel": "Open navigation menu",
@@ -429,62 +505,358 @@
             }
           }
         },
-        "Gallery": {
+        "PhotoGallery": {
           "variants": {
-            "TransWorldGallery1": {
-              "subtitle": "GALLERY",
-              "title1": "Our Property",
+            "TransWorldPhotoGallery1": {
+              "subtitle": "OUR GALLERY",
+              "title1": "Photo",
               "highlightedTitle": "Gallery",
-              "description": "Explore our collection of beautiful properties, modern interiors and premium amenities designed to match your lifestyle.",
+              "description": "Explore moments from our operations, team activities, infrastructure and success stories through our photo gallery.",
+              "backgroundImage": "/service/service_bg.webp",
+              "backgroundImageAlt": "World map showing global logistics routes",
+              "allTabId": "all",
               "openImageLabel": "Open gallery image",
-              "closeLabel": "Close gallery",
+              "closeLabel": "Close image gallery",
               "previousLabel": "Previous image",
               "nextLabel": "Next image",
+              "tabs": [
+                { "id": "all", "label": "All" },
+                { "id": "transportation", "label": "Transportation" },
+                { "id": "warehousing", "label": "Warehousing" },
+                { "id": "team-people", "label": "Team & People" },
+                { "id": "loading-unloading", "label": "Loading & Unloading" },
+                { "id": "events", "label": "Events" },
+                { "id": "infrastructure", "label": "Infrastructure" }
+              ],
               "images": [
+                { "id": "photo-road-freight-1", "categoryId": "transportation", "image": "/gallery/3.jpg", "imageAlt": "Freight truck moving cargo at sunset" },
+                { "id": "photo-terminal-1", "categoryId": "infrastructure", "image": "/gallery/1.jpg", "imageAlt": "Integrated air, sea and road logistics terminal" },
+                { "id": "photo-warehouse-1", "categoryId": "warehousing", "image": "/gallery/8.jpg", "imageAlt": "Large warehouse with organized freight inventory" },
+                { "id": "photo-team-1", "categoryId": "team-people", "image": "/gallery/5.jpg", "imageAlt": "Logistics professional coordinating operations" },
+                { "id": "photo-loading-1", "categoryId": "loading-unloading", "image": "/gallery/2.jpg", "imageAlt": "Container truck being handled at a freight terminal" },
+                { "id": "photo-air-cargo-1", "categoryId": "transportation", "image": "/gallery/1.jpg", "imageAlt": "Cargo aircraft and freight vehicles supporting global delivery" },
+                { "id": "photo-team-2", "categoryId": "events", "image": "/gallery/5.jpg", "imageAlt": "Logistics team member participating in an operations event" },
+                { "id": "photo-ocean-1", "categoryId": "transportation", "image": "/gallery/6.jpg", "imageAlt": "Container vessel transporting ocean freight" },
+                { "id": "photo-warehouse-team-1", "categoryId": "team-people", "image": "/gallery/5.jpg", "imageAlt": "Warehouse professional reviewing logistics activity" },
+                { "id": "photo-fleet-1", "categoryId": "transportation", "image": "/gallery/3.jpg", "imageAlt": "Road transportation fleet prepared for delivery" },
+                { "id": "photo-loading-2", "categoryId": "loading-unloading", "image": "/gallery/2.jpg", "imageAlt": "Freight handling equipment moving a shipping container" },
+                { "id": "photo-warehouse-2", "categoryId": "warehousing", "image": "/gallery/8.jpg", "imageAlt": "Warehouse aisles prepared for storage and distribution" },
+                { "id": "photo-rail-1", "categoryId": "transportation", "image": "/gallery/7.jpg", "imageAlt": "Freight train carrying cargo across regional routes" },
+                { "id": "photo-team-3", "categoryId": "team-people", "image": "/gallery/5.jpg", "imageAlt": "Logistics specialist overseeing freight operations" },
+                { "id": "photo-infrastructure-2", "categoryId": "infrastructure", "image": "/gallery/6.jpg", "imageAlt": "Ocean freight infrastructure connecting international markets" },
+                { "id": "photo-event-2", "categoryId": "events", "image": "/gallery/1.jpg", "imageAlt": "Global logistics operation featured during an industry event" }
+              ]
+            }
+          }
+        },
+        "VideoGallery": {
+          "variants": {
+            "TransWorldVideoGallery1": {
+              "subtitle": "OUR GALLERY",
+              "title1": "Video",
+              "highlightedTitle": "Gallery",
+              "description": "Watch our work in action. Explore videos of our logistics operations, infrastructure, team and client success stories.",
+              "backgroundImage": "/service/service_bg.webp",
+              "backgroundImageAlt": "World map showing connected transportation routes",
+              "playLabel": "Play video",
+              "closeLabel": "Close video",
+              "videos": [
+                { "id": "video-port-operations", "title": "Port Operations Overview", "duration": "02:45", "thumbnail": "/gallery/6.jpg", "thumbnailAlt": "Container ship representing port operations", "videoUrl": "https://www.youtube.com/embed/ZtsU1zECg70?autoplay=1" },
+                { "id": "video-road-services", "title": "Our Transportation Services", "duration": "03:12", "thumbnail": "/gallery/3.jpg", "thumbnailAlt": "Freight truck representing road transportation services", "videoUrl": "https://www.youtube.com/embed/ZtsU1zECg70?autoplay=1" },
+                { "id": "video-warehousing", "title": "Modern Warehousing Facility", "duration": "02:30", "thumbnail": "/gallery/8.jpg", "thumbnailAlt": "Modern warehouse facility and stored inventory", "videoUrl": "https://www.youtube.com/embed/ZtsU1zECg70?autoplay=1" },
+                { "id": "video-team-culture", "title": "Team & Work Culture", "duration": "01:58", "thumbnail": "/gallery/5.jpg", "thumbnailAlt": "Logistics team professional representing work culture", "videoUrl": "https://www.youtube.com/embed/ZtsU1zECg70?autoplay=1" },
+                { "id": "video-air-cargo", "title": "Air Cargo Solutions", "duration": "02:20", "thumbnail": "/gallery/1.jpg", "thumbnailAlt": "Cargo aircraft representing air freight solutions", "videoUrl": "https://www.youtube.com/embed/ZtsU1zECg70?autoplay=1" },
+                { "id": "video-client-success", "title": "Client Success Stories", "duration": "03:05", "thumbnail": "/gallery/7.jpg", "thumbnailAlt": "Freight network representing client logistics success", "videoUrl": "https://www.youtube.com/embed/ZtsU1zECg70?autoplay=1" }
+              ]
+            }
+          }
+        },
+        "Industries": {
+          "variants": {
+            "TransWorldIndustries1": {
+              "subtitle": "INDUSTRIES WE SERVE",
+              "title1": "Powering Every Industry",
+              "title2": "With",
+              "highlightedTitle": "Reliable Logistics",
+              "description": "We provide customized logistics and transportation solutions to meet the unique needs of businesses across various industries.",
+              "industries": [
                 {
-                  "id": "gallery-kitchen",
-                  "image": "/gallery/1.webp",
-                  "imageAlt": "Bright modern kitchen with a central island"
+                  "id": "industry-manufacturing",
+                  "title": "Manufacturing",
+                  "description": "Efficient transportation of raw materials and finished goods to keep your production running smoothly.",
+                  "image": "/service/8.jpg",
+                  "imageAlt": "Warehouse operations supporting manufacturing logistics",
+                  "icon": "FaIndustry"
                 },
                 {
-                  "id": "gallery-villa",
-                  "image": "/gallery/2.webp",
-                  "imageAlt": "Contemporary luxury villa with landscaped gardens"
+                  "id": "industry-automotive",
+                  "title": "Automotive",
+                  "description": "Reliable logistics solutions for automotive parts, vehicles and accessories.",
+                  "image": "/service/2.jpg",
+                  "imageAlt": "Freight truck transporting automotive cargo",
+                  "icon": "FaCar"
                 },
                 {
-                  "id": "gallery-living-room",
-                  "image": "/gallery/3.webp",
-                  "imageAlt": "Elegant neutral living room interior"
+                  "id": "industry-retail-ecommerce",
+                  "title": "Retail & E-commerce",
+                  "description": "Fast and flexible supply chain solutions to meet growing consumer demands.",
+                  "image": "/service/8.jpg",
+                  "imageAlt": "Organized warehouse inventory for retail distribution",
+                  "icon": "FaShoppingCart"
                 },
                 {
-                  "id": "gallery-lounge",
-                  "image": "/gallery/4.webp",
-                  "imageAlt": "Comfortable modern lounge with natural light"
+                  "id": "industry-food-beverage",
+                  "title": "Food & Beverage",
+                  "description": "Temperature-conscious transportation to maintain quality and freshness.",
+                  "image": "/service/5.jpg",
+                  "imageAlt": "Logistics professional coordinating careful product handling",
+                  "icon": "FaUtensils"
                 },
                 {
-                  "id": "gallery-bedroom",
-                  "image": "/gallery/5.webp",
-                  "imageAlt": "Premium bedroom with balcony view"
+                  "id": "industry-pharmaceuticals",
+                  "title": "Pharmaceuticals",
+                  "description": "Safe and compliant logistics for medicine, vaccines and healthcare products.",
+                  "image": "/service/5.jpg",
+                  "imageAlt": "Trained professional supporting compliant pharmaceutical logistics",
+                  "icon": "FaBriefcaseMedical"
                 },
                 {
-                  "id": "gallery-city-view",
-                  "image": "/gallery/6.webp",
-                  "imageAlt": "Bright apartment overlooking the city"
+                  "id": "industry-chemicals",
+                  "title": "Chemicals",
+                  "description": "Secure and reliable transportation of hazardous and non-hazardous chemicals.",
+                  "image": "/service/1.jpg",
+                  "imageAlt": "Multimodal freight network for secure chemical transportation",
+                  "icon": "FaFlask"
                 },
                 {
-                  "id": "gallery-family-home",
-                  "image": "/gallery/7.webp",
-                  "imageAlt": "Spacious family house surrounded by trees"
+                  "id": "industry-construction",
+                  "title": "Construction",
+                  "description": "On-time delivery of construction materials and heavy equipment.",
+                  "image": "/service/3.jpg",
+                  "imageAlt": "Heavy road freight supporting construction projects",
+                  "icon": "FaBuilding"
                 },
                 {
-                  "id": "gallery-pool",
-                  "image": "/gallery/8.webp",
-                  "imageAlt": "Luxury home with a private swimming pool"
+                  "id": "industry-oil-gas",
+                  "title": "Oil & Gas",
+                  "description": "Specialized logistics for energy sector equipment and materials.",
+                  "image": "/service/6.jpg",
+                  "imageAlt": "Ocean freight vessel supporting energy industry logistics",
+                  "icon": "FaOilCan"
                 },
                 {
-                  "id": "gallery-minimal-living",
-                  "image": "/gallery/9.webp",
-                  "imageAlt": "Minimal modern living room in soft neutral colors"
+                  "id": "industry-agriculture",
+                  "title": "Agriculture",
+                  "description": "Timely transportation of agricultural produce, machinery and supplies.",
+                  "image": "/service/7.jpg",
+                  "imageAlt": "Rail freight carrying agricultural supplies across long routes",
+                  "icon": "FaLeaf"
+                },
+                {
+                  "id": "industry-textiles-fashion",
+                  "title": "Textiles & Fashion",
+                  "description": "Efficient supply chain solutions for garments, fabrics and fashion products.",
+                  "image": "/service/8.jpg",
+                  "imageAlt": "Warehouse storage supporting textile and fashion distribution",
+                  "icon": "FaTshirt"
+                },
+                {
+                  "id": "industry-electronics",
+                  "title": "Electronics",
+                  "description": "Secure and damage-conscious delivery of high-value electronic goods.",
+                  "image": "/service/2.jpg",
+                  "imageAlt": "Secure container transport for high-value electronics",
+                  "icon": "FaMicrochip"
+                },
+                {
+                  "id": "industry-fmcg",
+                  "title": "FMCG",
+                  "description": "Fast-moving and reliable logistics for everyday consumer products.",
+                  "image": "/service/1.jpg",
+                  "imageAlt": "Connected freight services for fast-moving consumer goods",
+                  "icon": "FaShoppingBasket"
+                },
+                {
+                  "id": "industry-furniture-home-decor",
+                  "title": "Furniture & Home Decor",
+                  "description": "Safe handling and transportation of furniture and home interior products.",
+                  "image": "/service/3.jpg",
+                  "imageAlt": "Road freight vehicle used for furniture transportation",
+                  "icon": "FaCouch"
+                },
+                {
+                  "id": "industry-aerospace-aviation",
+                  "title": "Aerospace & Aviation",
+                  "description": "Precise and time-sensitive logistics for aerospace components and equipment.",
+                  "image": "/service/1.jpg",
+                  "imageAlt": "Cargo aircraft supporting aerospace and aviation logistics",
+                  "icon": "FaPlane"
+                },
+                {
+                  "id": "industry-technology-it",
+                  "title": "Technology & IT",
+                  "description": "Secure transportation for IT infrastructure, hardware and critical equipment.",
+                  "image": "/service/8.jpg",
+                  "imageAlt": "Secure warehouse environment for technology equipment",
+                  "icon": "FaServer"
+                },
+                {
+                  "id": "industry-others",
+                  "title": "Others",
+                  "description": "Customized logistics solutions to meet unique industry requirements.",
+                  "image": "/service/6.jpg",
+                  "imageAlt": "Container freight representing customized logistics solutions",
+                  "icon": "FaThLarge"
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "TransWorldTeam1": {
+              "subtitle": "OUR TEAM",
+              "title1": "Meet Our",
+              "highlightedTitle": "Expert Team",
+              "description": "Our experienced and dedicated team works together to provide reliable logistics and transportation solutions across the globe.",
+              "backgroundImage": "/service/service_bg.webp",
+              "backgroundImageAlt": "World map with international logistics routes",
+              "socialLinks": [
+                { "id": "team-social-linkedin", "icon": "FaLinkedinIn", "label": "LinkedIn", "url": "https://www.linkedin.com" },
+                { "id": "team-social-x", "icon": "FaXTwitter", "label": "X", "url": "https://x.com" },
+                { "id": "team-social-instagram", "icon": "FaInstagram", "label": "Instagram", "url": "https://www.instagram.com" },
+                { "id": "team-social-facebook", "icon": "FaFacebookF", "label": "Facebook", "url": "https://www.facebook.com" }
+              ],
+              "members": [
+                {
+                  "id": "team-daniel-wilson",
+                  "name": "Daniel Wilson",
+                  "role": "Founder",
+                  "image": "/team/team-01.webp",
+                  "imageAlt": "Daniel Wilson, founder of TransWorld"
+                },
+                {
+                  "id": "team-michael-carter",
+                  "name": "Michael Carter",
+                  "role": "CEO & Director",
+                  "image": "/team/team-02.webp",
+                  "imageAlt": "Michael Carter, chief executive officer"
+                },
+                {
+                  "id": "team-ethan-brooks",
+                  "name": "Ethan Brooks",
+                  "role": "Operations Manager",
+                  "image": "/team/team-03.webp",
+                  "imageAlt": "Ethan Brooks, logistics operations manager"
+                },
+                {
+                  "id": "team-arjun-mehta",
+                  "name": "Arjun Mehta",
+                  "role": "Logistics Manager",
+                  "image": "/team/team-04.webp",
+                  "imageAlt": "Arjun Mehta, logistics manager in a warehouse"
+                },
+                {
+                  "id": "team-emily-davis",
+                  "name": "Emily Davis",
+                  "role": "Supply Chain Manager",
+                  "image": "/team/team-05.webp",
+                  "imageAlt": "Emily Davis, supply chain manager holding a tablet"
+                },
+                {
+                  "id": "team-james-walker",
+                  "name": "James Walker",
+                  "role": "Warehouse Manager",
+                  "image": "/team/team-06.webp",
+                  "imageAlt": "James Walker, warehouse manager with a clipboard"
+                },
+                {
+                  "id": "team-david-miller",
+                  "name": "David Miller",
+                  "role": "Customer Support Manager",
+                  "image": "/team/team-07.webp",
+                  "imageAlt": "David Miller, customer support manager carrying packages"
+                },
+                {
+                  "id": "team-noah-bennett",
+                  "name": "Noah Bennett",
+                  "role": "Fleet Manager",
+                  "image": "/team/team-08.webp",
+                  "imageAlt": "Noah Bennett, fleet manager standing beside a freight truck"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "TransWorldFaq1": {
+              "subtitle": "FAQS",
+              "title1": "Frequently Asked",
+              "highlightedTitle": "Questions",
+              "description": "Find answers to common questions about our logistics and transportation services. If you need more information, feel free to contact us.",
+              "expandLabel": "Expand answer",
+              "collapseLabel": "Collapse answer",
+              "items": [
+                {
+                  "id": "faq-logistics-services",
+                  "number": "01",
+                  "question": "What types of logistics services do you offer?",
+                  "answer": "We offer a wide range of logistics services including freight transportation, warehousing, loading and unloading, supply chain management, customs support and customized solutions for domestic and international shipments."
+                },
+                {
+                  "id": "faq-international-shipping",
+                  "number": "02",
+                  "question": "Do you provide international shipping services?",
+                  "answer": "Yes. We coordinate international cargo through reliable ocean, air and multimodal transportation options, with documentation and customs support available throughout the journey."
+                },
+                {
+                  "id": "faq-shipment-tracking",
+                  "number": "03",
+                  "question": "How can I track my shipment?",
+                  "answer": "Our operations team provides shipment status updates and tracking information based on the selected service. You can contact our support team whenever you need assistance with an active shipment."
+                },
+                {
+                  "id": "faq-industries",
+                  "number": "04",
+                  "question": "What industries do you serve?",
+                  "answer": "We support manufacturing, automotive, retail, e-commerce, food and beverage, pharmaceuticals, chemicals, construction, technology and many other industries with tailored logistics solutions."
+                },
+                {
+                  "id": "faq-warehousing",
+                  "number": "05",
+                  "question": "Do you offer warehousing and storage facilities?",
+                  "answer": "Yes. Our warehousing services include secure storage, receiving, inventory handling, picking, packing and dispatch coordination for businesses with short-term or ongoing requirements."
+                },
+                {
+                  "id": "faq-quote",
+                  "number": "06",
+                  "question": "How do I get a quote for my shipment?",
+                  "answer": "Use the Get a Quote option and share your cargo type, origin, destination, shipment size and preferred timeline. Our team will review the details and prepare a suitable logistics plan."
+                },
+                {
+                  "id": "faq-safety",
+                  "number": "07",
+                  "question": "What safety measures do you follow?",
+                  "answer": "We follow documented handling procedures, select appropriate transport equipment and coordinate every shipment carefully to support cargo security throughout pickup, storage and delivery."
+                },
+                {
+                  "id": "faq-heavy-cargo",
+                  "number": "08",
+                  "question": "Can you handle bulk or heavy cargo?",
+                  "answer": "Yes. We can plan transportation for bulk, oversized and heavy cargo using suitable road, rail and ocean freight options based on the shipment requirements and route."
+                },
+                {
+                  "id": "faq-delivery-time",
+                  "number": "09",
+                  "question": "How long does delivery usually take?",
+                  "answer": "Delivery time depends on the origin, destination, transport mode, cargo type and customs requirements. We provide an estimated schedule after reviewing the shipment details."
+                },
+                {
+                  "id": "faq-company-difference",
+                  "number": "10",
+                  "question": "What makes your logistics company different?",
+                  "answer": "Our team combines practical experience, responsive communication, flexible service options and careful coordination to provide reliable logistics support from planning through final delivery."
                 }
               ]
             }
@@ -590,100 +962,359 @@
           "variants": {
             "TransWorldService1": {
               "subtitle": "OUR SERVICES",
-              "title1": "Our Main",
-              "highlightedTitle": "Focus",
-              "description": "We provide complete real estate solutions to help you buy, rent or sell properties with ease and confidence.",
-              "linkText": "Learn More",
+              "title1": "Comprehensive",
+              "highlightedTitle": "Logistics Services",
+              "description": "Delivering efficient, reliable, and customized logistics solutions to meet your business needs across domestic and international markets.",
+              "backgroundImage": "/service/service_bg.webp",
+              "linkText": "Read More",
               "services": [
                 {
-                  "id": "buy-a-home",
-                  "title": "Buy",
-                  "highlightedTitle": "a Home",
-                  "description": "Find your dream home from a wide range of premium properties in the best locations that match your lifestyle and budget.",
-                  "image": "/service/1.webp",
-                  "imageAlt": "Modern luxury home available to buy",
-                  "icon": "FaHome",
-                  "url": "/services"
+                  "id": "international-shipping",
+                  "title": "International Shipping",
+                  "description": "Reliable international shipping solutions for safe and timely delivery across global destinations.",
+                  "image": "/service/1.jpg",
+                  "imageAlt": "International freight moving by air, sea and road",
+                  "icon": "FaGlobeAmericas",
+                  "url": "/services/international-shipping"
                 },
                 {
-                  "id": "rent-a-home",
-                  "title": "Rent",
-                  "highlightedTitle": "a Home",
-                  "description": "Choose from a variety of rental properties in prime areas, offering comfort, convenience and great value.",
-                  "image": "/service/2.webp",
-                  "imageAlt": "Premium apartment interior available to rent",
-                  "icon": "FaKey",
-                  "url": "/services"
+                  "id": "ocean-freight",
+                  "title": "Ocean Freight",
+                  "description": "Cost-effective ocean freight services for large and heavy shipments worldwide.",
+                  "image": "/service/6.jpg",
+                  "imageAlt": "Container ship transporting international ocean freight",
+                  "icon": "FaAnchor",
+                  "url": "/services/ocean-freight"
                 },
                 {
-                  "id": "sell-a-home",
-                  "title": "Sell",
-                  "highlightedTitle": "a Home",
-                  "description": "Get the best value for your property with our expert guidance and hassle-free selling process.",
-                  "image": "/service/3.webp",
-                  "imageAlt": "Modern luxury property ready for sale",
-                  "icon": "FaHandshake",
-                  "url": "/services"
+                  "id": "rail-freight",
+                  "title": "Rail Freight",
+                  "description": "Efficient rail freight services for bulk cargo with reliable and eco-friendly transportation.",
+                  "image": "/service/7.jpg",
+                  "imageAlt": "Freight train transporting cargo at sunset",
+                  "icon": "FaTrain",
+                  "url": "/services/rail-freight"
                 },
                 {
-                  "id": "property-investment",
-                  "title": "Invest in",
-                  "highlightedTitle": "Property",
-                  "description": "Build your wealth with high-potential real estate investments and long-term returns.",
-                  "image": "/service/4.webp",
-                  "imageAlt": "Premium residential development for property investment",
-                  "icon": "FaChartLine",
-                  "url": "/services"
+                  "id": "road-transportation",
+                  "title": "Road Transportation",
+                  "description": "Safe and timely road transportation for domestic and cross-border deliveries.",
+                  "image": "/service/3.jpg",
+                  "imageAlt": "Freight truck travelling on a highway at sunset",
+                  "icon": "FaTruck",
+                  "url": "/services/road-transportation"
                 },
                 {
-                  "id": "property-management",
-                  "title": "Property",
-                  "highlightedTitle": "Management",
-                  "description": "Let us handle the details with professional property management services for a hassle-free experience.",
-                  "image": "/service/5.webp",
-                  "imageAlt": "Well maintained modern apartment interior",
-                  "icon": "FaTasks",
-                  "url": "/services"
+                  "id": "warehousing-storage",
+                  "title": "Warehousing & Storage",
+                  "description": "Secure and modern warehousing facilities to store your goods with complete safety.",
+                  "image": "/service/8.jpg",
+                  "imageAlt": "Organized logistics warehouse with stored cargo",
+                  "icon": "FaWarehouse",
+                  "url": "/services/warehousing-storage"
                 },
                 {
-                  "id": "commercial-properties",
-                  "title": "Commercial",
-                  "highlightedTitle": "Properties",
-                  "description": "Explore premium commercial spaces for your business, from offices to retail outlets in the best locations.",
-                  "image": "/service/6.webp",
-                  "imageAlt": "Modern commercial office space",
-                  "icon": "FaBuilding",
-                  "url": "/services"
+                  "id": "customs-clearance",
+                  "title": "Customs Clearance",
+                  "description": "Hassle-free customs clearance services to ensure smooth and compliant transportation.",
+                  "image": "/service/2.jpg",
+                  "imageAlt": "Container truck moving cargo through a logistics terminal",
+                  "icon": "FaClipboardCheck",
+                  "url": "/services/customs-clearance"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "TransWorldServiceDetail1": {
+              "navigationLabel": "Logistics services",
+              "backgroundImage": "/service/service_bg.webp",
+              "navigation": [
+                { "id": "international-shipping", "title": "International Shipping", "icon": "FaGlobeAmericas", "url": "/services/international-shipping" },
+                { "id": "ocean-freight", "title": "Ocean Freight", "icon": "FaAnchor", "url": "/services/ocean-freight" },
+                { "id": "rail-freight", "title": "Rail Freight", "icon": "FaTrain", "url": "/services/rail-freight" },
+                { "id": "road-transportation", "title": "Road Transportation", "icon": "FaTruck", "url": "/services/road-transportation" },
+                { "id": "warehousing-storage", "title": "Warehousing & Storage", "icon": "FaWarehouse", "url": "/services/warehousing-storage" },
+                { "id": "customs-clearance", "title": "Customs Clearance", "icon": "FaClipboardCheck", "url": "/services/customs-clearance" }
+              ],
+              "assistance": {
+                "icon": "FaPhoneAlt",
+                "title": "Need Assistance?",
+                "description": "Talk to Our Logistics Expert",
+                "phoneLabel": "Call Us",
+                "emailLabel": "Email Us",
+                "phones": [
+                  { "id": "assistance-phone", "value": "+1 000000000", "url": "tel:+1000000000" }
+                ],
+                "emails": [
+                  { "id": "assistance-email", "value": "info@xyz.com", "url": "mailto:info@xyz.com" }
+                ],
+                "buttonText": "Contact With Us",
+                "buttonUrl": "/contact"
+              },
+              "processSubtitle": "SHIPPING PROCESS",
+              "processTitle": "How It",
+              "processHighlightedTitle": "Works",
+              "processSteps": [
+                { "id": "detail-process-planning", "number": "01", "title": "Booking & Planning", "description": "Understand your shipping needs and plan the best solution.", "icon": "FaFileInvoice" },
+                { "id": "detail-process-handling", "number": "02", "title": "Cargo Handling", "description": "Secure packing and professional handling of your cargo.", "icon": "FaBoxOpen" },
+                { "id": "detail-process-clearance", "number": "03", "title": "Customs Clearance", "description": "Hassle-free documentation and compliance support.", "icon": "FaClipboardCheck" },
+                { "id": "detail-process-delivery", "number": "04", "title": "Global Delivery", "description": "Safe and timely delivery to your destination.", "icon": "FaTruck" }
+              ],
+              "services": [
+                {
+                  "id": "international-shipping",
+                  "title": "International Shipping",
+                  "icon": "FaGlobeAmericas",
+                  "breadcrumb": {
+                    "title": "International Shipping",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      { "id": "breadcrumb-international-home", "label": "Home", "url": "/" },
+                      { "id": "breadcrumb-international-current", "label": "International Shipping" }
+                    ]
+                  },
+                  "heroImage": "/service/6.jpg",
+                  "heroImageAlt": "Container ship carrying international freight across the ocean",
+                  "heroTitle": "Global Shipping",
+                  "heroHighlightedTitle": "Solutions",
+                  "heroDescription": "Safe, reliable and cost-effective international shipping services for your business.",
+                  "subtitle": "OUR SERVICE",
+                  "heading": "International",
+                  "headingHighlightedTitle": "Shipping",
+                  "description": "Our international shipping services provide reliable and efficient solutions for the transportation of goods across the globe. Whether it is full container load, less than container load or specialized cargo, we ensure safe, timely and cost-effective delivery to your destination.",
+                  "quoteText": "Get a Quote",
+                  "quoteUrl": "/get-a-quote",
+                  "overviewSubtitle": "SERVICE OVERVIEW",
+                  "overviewTitle": "Connecting Businesses",
+                  "overviewHighlightedTitle": "Across Borders",
+                  "overviewDescription": "With a strong global network and strategic partnerships, we handle your international shipments with complete care and compliance. Our team manages every step from booking and documentation to customs clearance and final delivery.",
+                  "overviewImage": "/service/1.jpg",
+                  "overviewImageAlt": "Air, sea and road transport connected for global shipping",
+                  "featuresSubtitle": "KEY FEATURES",
+                  "featuresTitle": "Why Choose Our",
+                  "featuresHighlightedTitle": "International Shipping Services?",
+                  "features": [
+                    { "id": "international-feature-network", "text": "Global network with major shipping partners" },
+                    { "id": "international-feature-options", "text": "Full container, less than container and specialized cargo options" },
+                    { "id": "international-feature-tracking", "text": "Real-time tracking and shipment updates" },
+                    { "id": "international-feature-documents", "text": "Customs documentation and clearance support" },
+                    { "id": "international-feature-pricing", "text": "Competitive pricing with flexible schedules" }
+                  ],
+                  "featuresImage": "/service/2.jpg",
+                  "featuresImageAlt": "Container truck operating at an international logistics terminal"
                 },
                 {
-                  "id": "land-and-plots",
-                  "title": "Land &",
-                  "highlightedTitle": "Plots",
-                  "description": "Discover prime land and plots for residential or commercial development in rapidly growing locations.",
-                  "image": "/service/7.webp",
-                  "imageAlt": "Open land parcel marked for development",
-                  "icon": "FaMapMarkerAlt",
-                  "url": "/services"
+                  "id": "ocean-freight",
+                  "title": "Ocean Freight",
+                  "icon": "FaAnchor",
+                  "breadcrumb": {
+                    "title": "Ocean Freight",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      { "id": "breadcrumb-ocean-home", "label": "Home", "url": "/" },
+                      { "id": "breadcrumb-ocean-current", "label": "Ocean Freight" }
+                    ]
+                  },
+                  "heroImage": "/service/6.jpg",
+                  "heroImageAlt": "Cargo vessel carrying containers through open water",
+                  "heroTitle": "Ocean Freight",
+                  "heroHighlightedTitle": "Solutions",
+                  "heroDescription": "Flexible and dependable sea freight options for cargo of every scale.",
+                  "subtitle": "OUR SERVICE",
+                  "heading": "Ocean",
+                  "headingHighlightedTitle": "Freight",
+                  "description": "Our ocean freight service gives businesses a dependable way to move large, heavy and containerized cargo worldwide. We coordinate schedules, documentation and port operations to keep every shipment secure and on time.",
+                  "quoteText": "Get a Quote",
+                  "quoteUrl": "/get-a-quote",
+                  "overviewSubtitle": "SERVICE OVERVIEW",
+                  "overviewTitle": "Reliable Shipping",
+                  "overviewHighlightedTitle": "Across Oceans",
+                  "overviewDescription": "From full container loads to consolidated shipments, our team plans the right sea route and carrier for your cargo. Clear communication and careful handling support a smooth journey from port to destination.",
+                  "overviewImage": "/service/1.jpg",
+                  "overviewImageAlt": "Freight network combining cargo ships, aircraft and trucks",
+                  "featuresSubtitle": "KEY FEATURES",
+                  "featuresTitle": "Why Choose Our",
+                  "featuresHighlightedTitle": "Ocean Freight Services?",
+                  "features": [
+                    { "id": "ocean-feature-carriers", "text": "Access to trusted international ocean carriers" },
+                    { "id": "ocean-feature-loads", "text": "Full and consolidated container load options" },
+                    { "id": "ocean-feature-routes", "text": "Flexible routes and sailing schedules" },
+                    { "id": "ocean-feature-tracking", "text": "Shipment visibility throughout the journey" },
+                    { "id": "ocean-feature-support", "text": "Documentation and port coordination support" }
+                  ],
+                  "featuresImage": "/service/2.jpg",
+                  "featuresImageAlt": "Freight truck collecting a container from a cargo terminal"
                 },
                 {
-                  "id": "new-developments",
-                  "title": "New",
-                  "highlightedTitle": "Developments",
-                  "description": "Explore newly launched residential and commercial projects with modern amenities and great investment opportunities.",
-                  "image": "/service/8.webp",
-                  "imageAlt": "New residential development surrounded by landscaping",
-                  "icon": "FaCity",
-                  "url": "/services"
+                  "id": "rail-freight",
+                  "title": "Rail Freight",
+                  "icon": "FaTrain",
+                  "breadcrumb": {
+                    "title": "Rail Freight",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      { "id": "breadcrumb-rail-home", "label": "Home", "url": "/" },
+                      { "id": "breadcrumb-rail-current", "label": "Rail Freight" }
+                    ]
+                  },
+                  "heroImage": "/service/7.jpg",
+                  "heroImageAlt": "Long freight train moving cargo at sunset",
+                  "heroTitle": "Rail Freight",
+                  "heroHighlightedTitle": "Solutions",
+                  "heroDescription": "Efficient rail transport for dependable long-distance cargo movement.",
+                  "subtitle": "OUR SERVICE",
+                  "heading": "Rail",
+                  "headingHighlightedTitle": "Freight",
+                  "description": "Our rail freight solutions provide reliable capacity for bulk, industrial and containerized cargo. We coordinate collection, rail movement and onward delivery to create an efficient connection between major trade regions.",
+                  "quoteText": "Get a Quote",
+                  "quoteUrl": "/get-a-quote",
+                  "overviewSubtitle": "SERVICE OVERVIEW",
+                  "overviewTitle": "Moving Cargo",
+                  "overviewHighlightedTitle": "On Reliable Routes",
+                  "overviewDescription": "Rail transport offers consistent schedules and strong capacity for long-distance freight. Our specialists manage route planning, terminal transfers and delivery coordination for a smooth end-to-end service.",
+                  "overviewImage": "/service/3.jpg",
+                  "overviewImageAlt": "Road freight vehicle supporting the final stage of rail delivery",
+                  "featuresSubtitle": "KEY FEATURES",
+                  "featuresTitle": "Why Choose Our",
+                  "featuresHighlightedTitle": "Rail Freight Services?",
+                  "features": [
+                    { "id": "rail-feature-capacity", "text": "Strong capacity for heavy and bulk cargo" },
+                    { "id": "rail-feature-schedules", "text": "Reliable schedules on established rail corridors" },
+                    { "id": "rail-feature-options", "text": "Containerized and specialized freight options" },
+                    { "id": "rail-feature-tracking", "text": "Coordinated tracking from terminal to destination" },
+                    { "id": "rail-feature-road", "text": "Integrated road support for first and last mile delivery" }
+                  ],
+                  "featuresImage": "/service/1.jpg",
+                  "featuresImageAlt": "Integrated logistics transport supporting rail freight operations"
                 },
                 {
-                  "id": "property-consultation",
-                  "title": "Property",
-                  "highlightedTitle": "Consultation",
-                  "description": "Get expert advice and personalized solutions for all your real estate needs.",
-                  "image": "/service/9.webp",
-                  "imageAlt": "Comfortable living room representing property consultation",
-                  "icon": "FaUserTie",
-                  "url": "/services"
+                  "id": "road-transportation",
+                  "title": "Road Transportation",
+                  "icon": "FaTruck",
+                  "breadcrumb": {
+                    "title": "Road Transportation",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      { "id": "breadcrumb-road-home", "label": "Home", "url": "/" },
+                      { "id": "breadcrumb-road-current", "label": "Road Transportation" }
+                    ]
+                  },
+                  "heroImage": "/service/3.jpg",
+                  "heroImageAlt": "Cargo truck transporting freight on the road at sunset",
+                  "heroTitle": "Road Transport",
+                  "heroHighlightedTitle": "Solutions",
+                  "heroDescription": "Safe and timely road freight for domestic and cross-border delivery.",
+                  "subtitle": "OUR SERVICE",
+                  "heading": "Road",
+                  "headingHighlightedTitle": "Transportation",
+                  "description": "Our road transportation service keeps cargo moving with reliable vehicles, experienced coordination and flexible delivery plans. We support full loads, partial loads and scheduled distribution across domestic and cross-border routes.",
+                  "quoteText": "Get a Quote",
+                  "quoteUrl": "/get-a-quote",
+                  "overviewSubtitle": "SERVICE OVERVIEW",
+                  "overviewTitle": "Direct Delivery",
+                  "overviewHighlightedTitle": "From Door to Door",
+                  "overviewDescription": "We plan every road movement around your delivery timeline, cargo type and destination. Professional handling, route monitoring and responsive communication help ensure a secure journey from pickup to handover.",
+                  "overviewImage": "/service/2.jpg",
+                  "overviewImageAlt": "Container truck prepared for road freight delivery",
+                  "featuresSubtitle": "KEY FEATURES",
+                  "featuresTitle": "Why Choose Our",
+                  "featuresHighlightedTitle": "Road Transportation Services?",
+                  "features": [
+                    { "id": "road-feature-fleet", "text": "Flexible vehicle options for different cargo types" },
+                    { "id": "road-feature-routes", "text": "Domestic and cross-border route coverage" },
+                    { "id": "road-feature-updates", "text": "Timely shipment status and delivery updates" },
+                    { "id": "road-feature-handling", "text": "Secure loading, handling and unloading support" },
+                    { "id": "road-feature-schedules", "text": "Scheduled and on-demand transportation plans" }
+                  ],
+                  "featuresImage": "/service/1.jpg",
+                  "featuresImageAlt": "Multiple freight vehicles ready for road distribution"
+                },
+                {
+                  "id": "warehousing-storage",
+                  "title": "Warehousing & Storage",
+                  "icon": "FaWarehouse",
+                  "breadcrumb": {
+                    "title": "Warehousing & Storage",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      { "id": "breadcrumb-warehouse-home", "label": "Home", "url": "/" },
+                      { "id": "breadcrumb-warehouse-current", "label": "Warehousing & Storage" }
+                    ]
+                  },
+                  "heroImage": "/service/8.jpg",
+                  "heroImageAlt": "Large organized warehouse storing logistics cargo",
+                  "heroTitle": "Secure Storage",
+                  "heroHighlightedTitle": "Solutions",
+                  "heroDescription": "Modern warehousing that keeps inventory protected, organized and ready.",
+                  "subtitle": "OUR SERVICE",
+                  "heading": "Warehousing &",
+                  "headingHighlightedTitle": "Storage",
+                  "description": "Our warehousing and storage solutions provide secure space, organized inventory handling and dependable dispatch support. We help businesses store, manage and move goods efficiently as demand changes.",
+                  "quoteText": "Get a Quote",
+                  "quoteUrl": "/get-a-quote",
+                  "overviewSubtitle": "SERVICE OVERVIEW",
+                  "overviewTitle": "Inventory Managed",
+                  "overviewHighlightedTitle": "With Complete Care",
+                  "overviewDescription": "From receiving and storage to picking and dispatch, our warehouse team follows clear processes for every item. Flexible capacity and accurate coordination keep your supply chain prepared for daily operations.",
+                  "overviewImage": "/service/1.jpg",
+                  "overviewImageAlt": "Connected transport network supporting warehouse distribution",
+                  "featuresSubtitle": "KEY FEATURES",
+                  "featuresTitle": "Why Choose Our",
+                  "featuresHighlightedTitle": "Warehousing Services?",
+                  "features": [
+                    { "id": "warehouse-feature-space", "text": "Secure and organized storage facilities" },
+                    { "id": "warehouse-feature-inventory", "text": "Accurate inventory receiving and handling" },
+                    { "id": "warehouse-feature-flexibility", "text": "Flexible space for changing business needs" },
+                    { "id": "warehouse-feature-dispatch", "text": "Efficient picking, packing and dispatch support" },
+                    { "id": "warehouse-feature-network", "text": "Connected transportation and distribution services" }
+                  ],
+                  "featuresImage": "/service/2.jpg",
+                  "featuresImageAlt": "Truck serving a warehouse and distribution terminal"
+                },
+                {
+                  "id": "customs-clearance",
+                  "title": "Customs Clearance",
+                  "icon": "FaClipboardCheck",
+                  "breadcrumb": {
+                    "title": "Customs Clearance",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      { "id": "breadcrumb-customs-home", "label": "Home", "url": "/" },
+                      { "id": "breadcrumb-customs-current", "label": "Customs Clearance" }
+                    ]
+                  },
+                  "heroImage": "/service/1.jpg",
+                  "heroImageAlt": "International cargo network requiring customs documentation",
+                  "heroTitle": "Customs Clearance",
+                  "heroHighlightedTitle": "Solutions",
+                  "heroDescription": "Clear, compliant support for smooth movement across international borders.",
+                  "subtitle": "OUR SERVICE",
+                  "heading": "Customs",
+                  "headingHighlightedTitle": "Clearance",
+                  "description": "Our customs clearance service helps businesses prepare documents, meet import and export requirements and move shipments through border procedures efficiently. We focus on accuracy, compliance and clear communication throughout the process.",
+                  "quoteText": "Get a Quote",
+                  "quoteUrl": "/get-a-quote",
+                  "overviewSubtitle": "SERVICE OVERVIEW",
+                  "overviewTitle": "Compliance Made",
+                  "overviewHighlightedTitle": "Simple and Reliable",
+                  "overviewDescription": "Our team reviews shipment information, supports required documentation and coordinates with logistics partners to reduce avoidable delays. Each movement is handled with careful attention to current customs requirements.",
+                  "overviewImage": "/service/6.jpg",
+                  "overviewImageAlt": "International container vessel transporting customs-cleared cargo",
+                  "featuresSubtitle": "KEY FEATURES",
+                  "featuresTitle": "Why Choose Our",
+                  "featuresHighlightedTitle": "Customs Clearance Services?",
+                  "features": [
+                    { "id": "customs-feature-documents", "text": "Accurate import and export documentation support" },
+                    { "id": "customs-feature-compliance", "text": "Careful compliance review for every shipment" },
+                    { "id": "customs-feature-guidance", "text": "Clear guidance throughout the clearance process" },
+                    { "id": "customs-feature-coordination", "text": "Coordination with carriers and logistics partners" },
+                    { "id": "customs-feature-delays", "text": "Proactive support to reduce avoidable border delays" }
+                  ],
+                  "featuresImage": "/service/2.jpg",
+                  "featuresImageAlt": "Container truck moving through a freight terminal after clearance"
                 }
               ]
             }
@@ -840,19 +1471,117 @@
               "title1": "Latest News &",
               "highlightedTitle": "Insights",
               "description": "Stay updated with the latest trends, industry insights, and expert tips in logistics and supply chain management.",
+              "backgroundImage": "/service/service_bg.webp",
+              "backgroundImageAlt": "World map showing logistics news from connected markets",
               "authorPrefix": "By",
               "readMoreText": "Read More",
               "viewAllText": "View All Blogs",
               "viewAllUrl": "/blog",
-              "itemsPerPage": 8,
+              "itemsPerPage": 12,
               "paginationLabel": "Blog page",
+              "previousPageLabel": "Previous blog page",
+              "nextPageLabel": "Next blog page",
               "pagination": [
                 {
                   "id": "blog-page-1",
                   "label": "1",
                   "page": 1
+                },
+                {
+                  "id": "blog-page-2",
+                  "label": "2",
+                  "page": 2
                 }
               ],
+              "authors": [
+                { "id": "blog-author-daniel", "name": "Daniel Wilson", "role": "Logistics Strategist", "image": "/team/team-01.webp", "imageAlt": "Daniel Wilson, logistics strategist" },
+                { "id": "blog-author-anita", "name": "Anita Verma", "role": "Supply Chain Manager", "image": "/team/team-02.webp", "imageAlt": "Anita Verma, supply chain manager" },
+                { "id": "blog-author-arjun", "name": "Arjun Mehta", "role": "Fleet Technology Lead", "image": "/team/team-03.webp", "imageAlt": "Arjun Mehta, fleet technology lead" },
+                { "id": "blog-author-sophia", "name": "Sophia Patel", "role": "Shipping Consultant", "image": "/team/team-04.webp", "imageAlt": "Sophia Patel, shipping consultant" },
+                { "id": "blog-author-michael", "name": "Michael Brown", "role": "Global Operations Lead", "image": "/team/team-05.webp", "imageAlt": "Michael Brown, global operations lead" },
+                { "id": "blog-author-emily", "name": "Emily Carter", "role": "Ocean Freight Specialist", "image": "/team/team-06.webp", "imageAlt": "Emily Carter, ocean freight specialist" },
+                { "id": "blog-author-james", "name": "James Walker", "role": "Rail Operations Manager", "image": "/team/team-07.webp", "imageAlt": "James Walker, rail operations manager" },
+                { "id": "blog-author-olivia", "name": "Olivia Martin", "role": "Warehouse Operations Lead", "image": "/team/team-08.webp", "imageAlt": "Olivia Martin, warehouse operations lead" }
+              ],
+              "detail": {
+                "recentPostsTitle": "Recent Posts",
+                "authorLabel": "By",
+                "quoteText": "Modern logistics succeeds when reliable planning, clear visibility and responsive coordination work together across every stage of the supply chain.",
+                "conclusionTitle": "Conclusion",
+                "conclusionText": "A well-planned logistics strategy helps businesses improve reliability, control costs and respond confidently to changing customer needs. By combining experienced people, connected transportation and practical technology, companies can build stronger and more sustainable supply chains.",
+                "sections": [
+                  {
+                    "id": "blog-detail-planning",
+                    "number": "01",
+                    "title": "Planning the Right Logistics Strategy",
+                    "description": "Successful logistics begins with a clear understanding of shipment priorities, routes, timelines and handling requirements. Careful planning helps every team work toward the same delivery goal.",
+                    "image": "/blog/2.jpg",
+                    "imageAlt": "Freight truck following a planned logistics route",
+                    "features": [
+                      { "id": "planning-feature-routes", "text": "Routes selected around delivery priorities" },
+                      { "id": "planning-feature-capacity", "text": "Capacity matched to shipment requirements" },
+                      { "id": "planning-feature-risks", "text": "Potential delays identified in advance" },
+                      { "id": "planning-feature-teams", "text": "Teams aligned through clear schedules" }
+                    ]
+                  },
+                  {
+                    "id": "blog-detail-efficiency",
+                    "number": "02",
+                    "title": "Improving Cost Efficiency",
+                    "description": "Efficient consolidation, scheduling and carrier coordination can reduce avoidable handling and storage costs while maintaining dependable service quality.",
+                    "image": "/blog/8.jpg",
+                    "imageAlt": "Organized warehouse supporting cost-efficient logistics",
+                    "features": [
+                      { "id": "efficiency-feature-costs", "text": "Lower avoidable operational costs" },
+                      { "id": "efficiency-feature-handling", "text": "Reduced handling and storage delays" },
+                      { "id": "efficiency-feature-loads", "text": "Flexible options for different loads" },
+                      { "id": "efficiency-feature-value", "text": "Better value across each shipment stage" }
+                    ]
+                  },
+                  {
+                    "id": "blog-detail-reliability",
+                    "number": "03",
+                    "title": "Building Reliable Operations",
+                    "description": "Reliable operations depend on accurate information, professional handling and consistent communication from pickup through final delivery.",
+                    "image": "/blog/3.jpg",
+                    "imageAlt": "Road freight vehicle supporting reliable delivery operations",
+                    "features": [
+                      { "id": "reliability-feature-transit", "text": "Clear and realistic transit schedules" },
+                      { "id": "reliability-feature-tracking", "text": "Shipment tracking and regular updates" },
+                      { "id": "reliability-feature-handling", "text": "Careful cargo handling procedures" },
+                      { "id": "reliability-feature-service", "text": "Responsive support throughout delivery" }
+                    ]
+                  },
+                  {
+                    "id": "blog-detail-connection",
+                    "number": "04",
+                    "title": "Connecting Every Supply Chain Stage",
+                    "description": "Integrated road, rail, ocean, air and warehouse services create smoother handovers and better visibility across complex supply chains.",
+                    "image": "/blog/1.jpg",
+                    "imageAlt": "Air, ocean and road transport connected in one logistics network",
+                    "features": [
+                      { "id": "connection-feature-modes", "text": "Multiple transport modes coordinated together" },
+                      { "id": "connection-feature-handover", "text": "Smoother handovers between service stages" },
+                      { "id": "connection-feature-industries", "text": "Flexible support for diverse industries" },
+                      { "id": "connection-feature-visibility", "text": "Better visibility across the full journey" }
+                    ]
+                  },
+                  {
+                    "id": "blog-detail-sustainability",
+                    "number": "05",
+                    "title": "Supporting Sustainable Growth",
+                    "description": "Smarter routing, fuller vehicle utilization and efficient facilities can reduce waste while supporting reliable long-term business growth.",
+                    "image": "/blog/7.jpg",
+                    "imageAlt": "Efficient freight transportation supporting sustainable supply chains",
+                    "features": [
+                      { "id": "sustainability-feature-routes", "text": "Optimized routes and vehicle utilization" },
+                      { "id": "sustainability-feature-waste", "text": "Reduced waste across logistics processes" },
+                      { "id": "sustainability-feature-options", "text": "Practical lower-impact transport options" },
+                      { "id": "sustainability-feature-growth", "text": "Scalable support for future growth" }
+                    ]
+                  }
+                ]
+              },
               "posts": [
                 {
                   "id": "visible-supply-chain-reasons",
@@ -862,14 +1591,9 @@
                   "date": "27 Dec, 2024",
                   "image": "/blog/1.jpg",
                   "imageAlt": "Cargo ship, aircraft and freight trucks supporting global logistics",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-daniel",
-                    "name": "Daniel Wilson",
-                    "role": "Logistics Strategist",
-                    "image": "/team/team-01.webp",
-                    "imageAlt": "Daniel Wilson"
-                  }
+                  "url": "/blog/visible-supply-chain-reasons",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": { "title": "Three Reasons You Can Improve Supply Chain Visibility", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-visibility-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-visibility-current", "label": "Supply Chain Visibility" }] }
                 },
                 {
                   "id": "resilient-logistics-network",
@@ -879,14 +1603,9 @@
                   "date": "24 Dec, 2024",
                   "image": "/blog/2.jpg",
                   "imageAlt": "Freight truck moving through a modern logistics terminal",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-anita",
-                    "name": "Anita Verma",
-                    "role": "Supply Chain Manager",
-                    "image": "/team/team-02.webp",
-                    "imageAlt": "Anita Verma"
-                  }
+                  "url": "/blog/resilient-logistics-network",
+                  "authorId": "blog-author-anita",
+                  "breadcrumb": { "title": "How to Build a More Resilient Logistics Network", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-resilient-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-resilient-current", "label": "Resilient Logistics Network" }] }
                 },
                 {
                   "id": "remote-fleet-monitoring",
@@ -896,14 +1615,9 @@
                   "date": "22 Dec, 2024",
                   "image": "/blog/3.jpg",
                   "imageAlt": "Freight truck travelling at sunset on a wet logistics route",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-arjun",
-                    "name": "Arjun Mehta",
-                    "role": "Fleet Technology Lead",
-                    "image": "/team/team-03.webp",
-                    "imageAlt": "Arjun Mehta"
-                  }
+                  "url": "/blog/remote-fleet-monitoring",
+                  "authorId": "blog-author-arjun",
+                  "breadcrumb": { "title": "Remote Fleet Monitoring and Control in Logistics", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-monitoring-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-monitoring-current", "label": "Remote Fleet Monitoring" }] }
                 },
                 {
                   "id": "shipping-partner-guide",
@@ -913,14 +1627,9 @@
                   "date": "20 Dec, 2024",
                   "image": "/blog/4.jpg",
                   "imageAlt": "Container truck and cargo ship operating at a busy port",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-sophia",
-                    "name": "Sophia Patel",
-                    "role": "Shipping Consultant",
-                    "image": "/team/team-04.webp",
-                    "imageAlt": "Sophia Patel"
-                  }
+                  "url": "/blog/shipping-partner-guide",
+                  "authorId": "blog-author-sophia",
+                  "breadcrumb": { "title": "Your Guide to Choosing the Right Shipping Partner", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-partner-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-partner-current", "label": "Shipping Partner Guide" }] }
                 },
                 {
                   "id": "global-logistics-services",
@@ -930,14 +1639,9 @@
                   "date": "18 Dec, 2024",
                   "image": "/blog/5.jpg",
                   "imageAlt": "Logistics professional working at a freight facility",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-michael",
-                    "name": "Michael Brown",
-                    "role": "Global Operations Lead",
-                    "image": "/team/team-05.webp",
-                    "imageAlt": "Michael Brown"
-                  }
+                  "url": "/blog/global-logistics-services",
+                  "authorId": "blog-author-michael",
+                  "breadcrumb": { "title": "Delivering the Best Global Logistics Services", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-global-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-global-current", "label": "Global Logistics Services" }] }
                 },
                 {
                   "id": "ocean-freight-efficiency",
@@ -947,14 +1651,9 @@
                   "date": "15 Dec, 2024",
                   "image": "/blog/6.jpg",
                   "imageAlt": "Container ship transporting cargo across open water",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-emily",
-                    "name": "Emily Carter",
-                    "role": "Ocean Freight Specialist",
-                    "image": "/team/team-06.webp",
-                    "imageAlt": "Emily Carter"
-                  }
+                  "url": "/blog/ocean-freight-efficiency",
+                  "authorId": "blog-author-emily",
+                  "breadcrumb": { "title": "Improving Efficiency Across Ocean Freight Operations", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-ocean-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-ocean-current", "label": "Ocean Freight Efficiency" }] }
                 },
                 {
                   "id": "rail-freight-future",
@@ -964,14 +1663,9 @@
                   "date": "12 Dec, 2024",
                   "image": "/blog/7.jpg",
                   "imageAlt": "Freight train carrying cargo through a dramatic landscape",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-james",
-                    "name": "James Walker",
-                    "role": "Rail Operations Manager",
-                    "image": "/team/team-07.webp",
-                    "imageAlt": "James Walker"
-                  }
+                  "url": "/blog/rail-freight-future",
+                  "authorId": "blog-author-james",
+                  "breadcrumb": { "title": "Why Rail Freight Matters for Modern Supply Chains", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-rail-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-rail-current", "label": "Rail Freight Future" }] }
                 },
                 {
                   "id": "smart-warehouse-operations",
@@ -981,14 +1675,201 @@
                   "date": "10 Dec, 2024",
                   "image": "/blog/8.jpg",
                   "imageAlt": "Large warehouse with organized cargo and handling equipment",
-                  "url": "/blog",
-                  "author": {
-                    "id": "blog-author-olivia",
-                    "name": "Olivia Martin",
-                    "role": "Warehouse Operations Lead",
-                    "image": "/team/team-08.webp",
-                    "imageAlt": "Olivia Martin"
-                  }
+                  "url": "/blog/smart-warehouse-operations",
+                  "authorId": "blog-author-olivia",
+                  "breadcrumb": { "title": "Building Smarter and Safer Warehouse Operations", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-warehouse-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-warehouse-current", "label": "Smart Warehouse Operations" }] }
+                },
+                {
+                  "id": "sustainable-logistics",
+                  "category": "Sustainability",
+                  "title": "Sustainable Logistics: Building a Greener Tomorrow",
+                  "description": "Learn how smarter routing and efficient operations help create more sustainable logistics networks.",
+                  "date": "08 Dec, 2024",
+                  "image": "/blog/3.jpg",
+                  "imageAlt": "Efficient freight truck supporting sustainable logistics",
+                  "url": "/blog/sustainable-logistics",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": { "title": "Sustainable Logistics: Building a Greener Tomorrow", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-sustainable-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-sustainable-current", "label": "Sustainable Logistics" }] }
+                },
+                {
+                  "id": "warehouse-selection",
+                  "category": "Warehousing",
+                  "title": "Key Factors to Consider When Choosing a Warehouse",
+                  "description": "Location, security, technology and scalability are essential for efficient storage operations.",
+                  "date": "06 Dec, 2024",
+                  "image": "/blog/8.jpg",
+                  "imageAlt": "Organized modern warehouse for secure cargo storage",
+                  "url": "/blog/warehouse-selection",
+                  "authorId": "blog-author-olivia",
+                  "breadcrumb": { "title": "Key Factors to Consider When Choosing a Warehouse", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-warehouse-selection-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-warehouse-selection-current", "label": "Choosing a Warehouse" }] }
+                },
+                {
+                  "id": "import-export-guide",
+                  "category": "Export & Import",
+                  "title": "A Complete Guide to Import and Export Logistics",
+                  "description": "Understand documentation, customs coordination and best practices for smooth global trade.",
+                  "date": "04 Dec, 2024",
+                  "image": "/blog/6.jpg",
+                  "imageAlt": "Container ship supporting international import and export logistics",
+                  "url": "/blog/import-export-guide",
+                  "authorId": "blog-author-sophia",
+                  "breadcrumb": { "title": "A Complete Guide to Import and Export Logistics", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-import-export-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-import-export-current", "label": "Import and Export Guide" }] }
+                },
+                {
+                  "id": "fleet-management-efficiency",
+                  "category": "Fleet Management",
+                  "title": "How Fleet Management Improves Operational Efficiency",
+                  "description": "Effective fleet planning can reduce costs, improve safety and increase delivery performance.",
+                  "date": "02 Dec, 2024",
+                  "image": "/blog/2.jpg",
+                  "imageAlt": "Freight vehicle managed through a coordinated logistics fleet",
+                  "url": "/blog/fleet-management-efficiency",
+                  "authorId": "blog-author-arjun",
+                  "breadcrumb": { "title": "How Fleet Management Improves Operational Efficiency", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-fleet-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-fleet-current", "label": "Fleet Management Efficiency" }] }
+                },
+                {
+                  "id": "last-mile-delivery",
+                  "category": "Delivery",
+                  "title": "Improving the Last Mile Delivery Experience",
+                  "description": "Clear communication and flexible routing help businesses deliver a stronger customer experience.",
+                  "date": "30 Nov, 2024",
+                  "image": "/blog/5.jpg",
+                  "imageAlt": "Delivery professional coordinating a last mile shipment",
+                  "url": "/blog/last-mile-delivery",
+                  "authorId": "blog-author-michael",
+                  "breadcrumb": { "title": "Improving the Last Mile Delivery Experience", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-last-mile-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-last-mile-current", "label": "Last Mile Delivery" }] }
+                },
+                {
+                  "id": "cold-chain-logistics",
+                  "category": "Cold Chain",
+                  "title": "Why Cold Chain Logistics Requires Careful Coordination",
+                  "description": "Temperature visibility and dependable handling protect sensitive products throughout transportation.",
+                  "date": "28 Nov, 2024",
+                  "image": "/blog/8.jpg",
+                  "imageAlt": "Warehouse environment supporting controlled logistics operations",
+                  "url": "/blog/cold-chain-logistics",
+                  "authorId": "blog-author-anita",
+                  "breadcrumb": { "title": "Why Cold Chain Logistics Requires Careful Coordination", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-cold-chain-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-cold-chain-current", "label": "Cold Chain Logistics" }] }
+                },
+                {
+                  "id": "customs-clearance-guide",
+                  "category": "Customs",
+                  "title": "Practical Steps for Smoother Customs Clearance",
+                  "description": "Accurate information and early document preparation can reduce avoidable border delays.",
+                  "date": "26 Nov, 2024",
+                  "image": "/blog/1.jpg",
+                  "imageAlt": "International freight network requiring customs clearance",
+                  "url": "/blog/customs-clearance-guide",
+                  "authorId": "blog-author-sophia",
+                  "breadcrumb": { "title": "Practical Steps for Smoother Customs Clearance", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-customs-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-customs-current", "label": "Customs Clearance Guide" }] }
+                },
+                {
+                  "id": "ecommerce-fulfillment",
+                  "category": "E-commerce",
+                  "title": "Building a Responsive E-commerce Fulfillment Network",
+                  "description": "Connected inventory and delivery workflows help online businesses respond to changing demand.",
+                  "date": "24 Nov, 2024",
+                  "image": "/blog/5.jpg",
+                  "imageAlt": "Logistics worker supporting e-commerce order fulfillment",
+                  "url": "/blog/ecommerce-fulfillment",
+                  "authorId": "blog-author-olivia",
+                  "breadcrumb": { "title": "Building a Responsive E-commerce Fulfillment Network", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-ecommerce-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-ecommerce-current", "label": "E-commerce Fulfillment" }] }
+                },
+                {
+                  "id": "intermodal-transport",
+                  "category": "Transportation",
+                  "title": "How Intermodal Transport Connects Global Supply Chains",
+                  "description": "Road, rail, air and ocean services work together to support flexible international movement.",
+                  "date": "22 Nov, 2024",
+                  "image": "/blog/1.jpg",
+                  "imageAlt": "Air, sea and road freight connected through intermodal transport",
+                  "url": "/blog/intermodal-transport",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": { "title": "How Intermodal Transport Connects Global Supply Chains", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-intermodal-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-intermodal-current", "label": "Intermodal Transport" }] }
+                },
+                {
+                  "id": "cargo-security",
+                  "category": "Cargo Safety",
+                  "title": "Essential Practices for Safer Cargo Transportation",
+                  "description": "Careful loading, monitoring and documentation help protect valuable goods in transit.",
+                  "date": "20 Nov, 2024",
+                  "image": "/blog/2.jpg",
+                  "imageAlt": "Secure container truck prepared for cargo transportation",
+                  "url": "/blog/cargo-security",
+                  "authorId": "blog-author-james",
+                  "breadcrumb": { "title": "Essential Practices for Safer Cargo Transportation", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-security-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-security-current", "label": "Cargo Transportation Safety" }] }
+                },
+                {
+                  "id": "route-optimization",
+                  "category": "Technology",
+                  "title": "Using Route Optimization to Improve Delivery Performance",
+                  "description": "Data-informed route planning can reduce delays and help fleets use time and fuel efficiently.",
+                  "date": "18 Nov, 2024",
+                  "image": "/blog/3.jpg",
+                  "imageAlt": "Road freight vehicle following an optimized delivery route",
+                  "url": "/blog/route-optimization",
+                  "authorId": "blog-author-arjun",
+                  "breadcrumb": { "title": "Using Route Optimization to Improve Delivery Performance", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-route-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-route-current", "label": "Route Optimization" }] }
+                },
+                {
+                  "id": "port-congestion",
+                  "category": "Ocean Freight",
+                  "title": "Managing Shipments Through Port Congestion",
+                  "description": "Flexible schedules and proactive updates help reduce disruption during busy port periods.",
+                  "date": "16 Nov, 2024",
+                  "image": "/blog/6.jpg",
+                  "imageAlt": "Container ship moving through a busy ocean freight route",
+                  "url": "/blog/port-congestion",
+                  "authorId": "blog-author-emily",
+                  "breadcrumb": { "title": "Managing Shipments Through Port Congestion", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-port-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-port-current", "label": "Port Congestion" }] }
+                },
+                {
+                  "id": "inventory-accuracy",
+                  "category": "Warehousing",
+                  "title": "Improving Inventory Accuracy in Modern Warehouses",
+                  "description": "Clear receiving, storage and picking processes improve visibility and customer service.",
+                  "date": "14 Nov, 2024",
+                  "image": "/blog/8.jpg",
+                  "imageAlt": "Organized warehouse designed for accurate inventory control",
+                  "url": "/blog/inventory-accuracy",
+                  "authorId": "blog-author-olivia",
+                  "breadcrumb": { "title": "Improving Inventory Accuracy in Modern Warehouses", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-inventory-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-inventory-current", "label": "Inventory Accuracy" }] }
+                },
+                {
+                  "id": "cross-border-shipping",
+                  "category": "Global Trade",
+                  "title": "Preparing Cargo for Cross-Border Shipping",
+                  "description": "Good documentation and reliable coordination keep international shipments moving smoothly.",
+                  "date": "12 Nov, 2024",
+                  "image": "/blog/1.jpg",
+                  "imageAlt": "International cargo prepared for cross-border transportation",
+                  "url": "/blog/cross-border-shipping",
+                  "authorId": "blog-author-sophia",
+                  "breadcrumb": { "title": "Preparing Cargo for Cross-Border Shipping", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-border-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-border-current", "label": "Cross-Border Shipping" }] }
+                },
+                {
+                  "id": "green-warehousing",
+                  "category": "Sustainability",
+                  "title": "Practical Ideas for Greener Warehouse Operations",
+                  "description": "Efficient layouts, energy planning and reduced waste support more sustainable facilities.",
+                  "date": "10 Nov, 2024",
+                  "image": "/blog/8.jpg",
+                  "imageAlt": "Efficient warehouse supporting greener logistics operations",
+                  "url": "/blog/green-warehousing",
+                  "authorId": "blog-author-anita",
+                  "breadcrumb": { "title": "Practical Ideas for Greener Warehouse Operations", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-green-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-green-current", "label": "Greener Warehousing" }] }
+                },
+                {
+                  "id": "logistics-risk-management",
+                  "category": "Planning",
+                  "title": "Creating a Stronger Logistics Risk Management Plan",
+                  "description": "Scenario planning and dependable partners help supply chains respond to unexpected disruption.",
+                  "date": "08 Nov, 2024",
+                  "image": "/blog/7.jpg",
+                  "imageAlt": "Rail freight network supporting resilient logistics planning",
+                  "url": "/blog/logistics-risk-management",
+                  "authorId": "blog-author-michael",
+                  "breadcrumb": { "title": "Creating a Stronger Logistics Risk Management Plan", "bgImage": "/main logo/breadcrumb.webp", "paths": [{ "id": "breadcrumb-blog-risk-home", "label": "Home", "url": "/" }, { "id": "breadcrumb-blog-risk-current", "label": "Logistics Risk Management" }] }
                 }
               ]
             }
@@ -1134,52 +2015,159 @@
             }
           }
         },
+        "Quote": {
+          "variants": {
+            "TransWorldQuote1": {
+              "intro": {
+                "eyebrow": "GET A QUOTE",
+                "title1": "Request a Free Quote for Your",
+                "titleHighlight": "Transportation Needs",
+                "description": "Get a customized quote for your logistics and transportation requirements. Share your details and our team will get back to you with the best solution."
+              },
+              "visual": {
+                "image": "/service/1.jpg",
+                "imageAlt": "Integrated air, sea and road freight transportation",
+                "eyebrow": "RELIABLE LOGISTICS",
+                "title1": "Solutions for a",
+                "titleHighlight": "Better Tomorrow",
+                "benefits": [
+                  {
+                    "id": "quote-benefit-cargo",
+                    "icon": "FaBoxOpen",
+                    "title": "Safe & Secure Cargo Handling"
+                  },
+                  {
+                    "id": "quote-benefit-delivery",
+                    "icon": "FaTruck",
+                    "title": "On-Time Deliveries"
+                  },
+                  {
+                    "id": "quote-benefit-global",
+                    "icon": "FaGlobeAmericas",
+                    "title": "Domestic & International"
+                  }
+                ]
+              },
+              "form": {
+                "title1": "Get a",
+                "titleHighlight": "Quote Now",
+                "description": "Fill out the form below and our team will provide you with a competitive quote based on your requirements.",
+                "fullNameLabel": "Full Name *",
+                "fullNamePlaceholder": "Enter your full name",
+                "companyNameLabel": "Company Name *",
+                "companyNamePlaceholder": "Enter company name",
+                "phoneLabel": "Phone Number *",
+                "phonePlaceholder": "Enter phone number",
+                "emailLabel": "Email Address *",
+                "emailPlaceholder": "Enter email address",
+                "transportationLabel": "Transportation Type *",
+                "transportationPlaceholder": "Select transportation type",
+                "pickupLabel": "Pickup Location *",
+                "pickupPlaceholder": "Enter pickup location",
+                "deliveryLabel": "Delivery Location *",
+                "deliveryPlaceholder": "Enter delivery location",
+                "cargoLabel": "Cargo Type *",
+                "cargoPlaceholder": "Select cargo type",
+                "weightLabel": "Approx. Weight / Quantity *",
+                "weightPlaceholder": "Enter weight or quantity",
+                "dateLabel": "Preferred Date *",
+                "requirementsLabel": "Special Requirements",
+                "requirementsPlaceholder": "Enter any special requirements",
+                "messageLabel": "Message",
+                "messagePlaceholder": "Tell us more about your shipment...",
+                "buttonText": "Get a Quote",
+                "successMessage": "Thank you. Your quote request has been submitted successfully.",
+                "transportationOptions": [
+                  {
+                    "id": "quote-transport-road",
+                    "label": "Road Transportation",
+                    "value": "road"
+                  },
+                  {
+                    "id": "quote-transport-air",
+                    "label": "Air Freight",
+                    "value": "air"
+                  },
+                  {
+                    "id": "quote-transport-ocean",
+                    "label": "Ocean Freight",
+                    "value": "ocean"
+                  },
+                  {
+                    "id": "quote-transport-rail",
+                    "label": "Rail Freight",
+                    "value": "rail"
+                  }
+                ],
+                "cargoOptions": [
+                  {
+                    "id": "quote-cargo-general",
+                    "label": "General Cargo",
+                    "value": "general"
+                  },
+                  {
+                    "id": "quote-cargo-perishable",
+                    "label": "Perishable Goods",
+                    "value": "perishable"
+                  },
+                  {
+                    "id": "quote-cargo-heavy",
+                    "label": "Heavy Cargo",
+                    "value": "heavy"
+                  },
+                  {
+                    "id": "quote-cargo-fragile",
+                    "label": "Fragile Cargo",
+                    "value": "fragile"
+                  }
+                ]
+              }
+            }
+          }
+        },
         "contact": {
           "variants": {
             "TransWorldContact1": {
-              "backgroundImage": "/property/1.webp",
-              "backgroundImageAlt": "Luxury modern home beside the contact form",
               "intro": {
-                "eyebrow": "GET IN TOUCH",
-                "title": "Contact",
-                "titleHighlight": "Us",
-                "description": "We're here to help you with all your real estate needs. Feel free to reach out to our team for any queries or assistance."
+                "eyebrow": "CONTACT US",
+                "title1": "Contact our team for seamless",
+                "titleHighlight": "transportation",
+                "title2": "support"
               },
               "form": {
-                "eyebrow": "SEND US A MESSAGE",
-                "title": "Get In",
-                "titleHighlight": "Touch",
-                "description": "Have a question or need expert advice? Fill out the form below and our team will get back to you shortly.",
-                "fullNamePlaceholder": "Your Name",
-                "phonePlaceholder": "Your Phone",
-                "emailPlaceholder": "Your Email",
-                "subjectPlaceholder": "Subject",
-                "messagePlaceholder": "Your Message",
+                "title1": "Send a",
+                "titleHighlight": "Message",
+                "firstNamePlaceholder": "First Name",
+                "lastNamePlaceholder": "Last Name",
+                "phonePlaceholder": "Phone Number",
+                "emailPlaceholder": "Email Address",
+                "messagePlaceholder": "Message",
+                "consentLabel": "Save my name and email in this browser for the next time I comment.",
                 "buttonText": "Send Message",
                 "successMessage": "Thank you. Your message has been submitted successfully."
               },
               "contactPanel": {
-                "eyebrow": "CONTACT INFORMATION",
-                "title1": "Contact",
-                "titleHighlight": "Us",
-                "description": "We're always ready to assist you. Reach out through the details below or send us a message using the contact form.",
+                "image": "/service/1.jpg",
+                "imageAlt": "Air, road and sea logistics transportation",
+                "title1": "Your next shipment starts with",
+                "titleHighlight": "conversation",
                 "items": [
                   {
                     "id": "contact-info-address",
                     "icon": "FaMapMarkerAlt",
-                    "title": "Address",
+                    "title": "Our Office",
                     "lines": [
                       {
                         "id": "contact-office-address",
-                        "text": "123 Main St, New York, NY, USA"
+                        "text": "123 Main St, NY, USA"
                       }
                     ],
-                    "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+                    "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+NY%2C+USA"
                   },
                   {
                     "id": "contact-info-phone",
                     "icon": "FaPhoneAlt",
-                    "title": "Phone",
+                    "title": "Call Us",
                     "lines": [
                       {
                         "id": "contact-phone-number",
@@ -1191,7 +2179,7 @@
                   {
                     "id": "contact-info-email",
                     "icon": "FaEnvelope",
-                    "title": "Email",
+                    "title": "Email Us",
                     "lines": [
                       {
                         "id": "contact-email-address",
@@ -1199,59 +2187,15 @@
                       }
                     ],
                     "url": "mailto:info@xyz.com"
-                  },
-                  {
-                    "id": "contact-info-hours",
-                    "icon": "FaClock",
-                    "title": "Office Hours",
-                    "lines": [
-                      {
-                        "id": "contact-hours-weekday",
-                        "text": "Mon - Sat: 9:00 AM - 6:00 PM"
-                      },
-                      {
-                        "id": "contact-hours-sunday",
-                        "text": "Sunday: Closed"
-                      }
-                    ]
-                  }
-                ],
-                "socialTitle": "Follow Us",
-                "socialLinks": [
-                  {
-                    "id": "contact-social-facebook",
-                    "icon": "FaFacebookF",
-                    "label": "Facebook",
-                    "url": "https://facebook.com"
-                  },
-                  {
-                    "id": "contact-social-x",
-                    "icon": "FaXTwitter",
-                    "label": "X",
-                    "url": "https://x.com"
-                  },
-                  {
-                    "id": "contact-social-instagram",
-                    "icon": "FaInstagram",
-                    "label": "Instagram",
-                    "url": "https://instagram.com"
-                  },
-                  {
-                    "id": "contact-social-linkedin",
-                    "icon": "FaLinkedinIn",
-                    "label": "LinkedIn",
-                    "url": "https://linkedin.com"
                   }
                 ]
               },
               "location": {
-                "eyebrow": "OUR LOCATION",
-                "title": "Visit Our Office",
-                "description": "123 Main St, New York, NY, USA",
-                "buttonText": "Get Directions",
-                "buttonUrl": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA",
-                "mapUrl": "https://www.google.com/maps?q=123+Main+St,+New+York,+NY,+USA&output=embed",
-                "mapTitle": "Map showing the TransWorld office location in New York"
+                "eyebrow": "HOW TO REACH",
+                "title1": "Reach out today for trusted",
+                "titleHighlight": "logistics and transport",
+                "mapUrl": "https://www.google.com/maps?q=New+York,+USA&output=embed",
+                "mapTitle": "Map showing a location in New York, USA"
               }
             }
           }
@@ -1315,8 +2259,36 @@
           "gallery": {
             "components": [
               {
-                "key": "Gallery",
-                "component": "TransWorldGallery1"
+                "key": "PhotoGallery",
+                "component": "TransWorldPhotoGallery1"
+              },
+              {
+                "key": "VideoGallery",
+                "component": "TransWorldVideoGallery1"
+              }
+            ]
+          },
+          "industries": {
+            "components": [
+              {
+                "key": "Industries",
+                "component": "TransWorldIndustries1"
+              }
+            ]
+          },
+          "team": {
+            "components": [
+              {
+                "key": "Team",
+                "component": "TransWorldTeam1"
+              }
+            ]
+          },
+          "faqs": {
+            "components": [
+              {
+                "key": "Faq",
+                "component": "TransWorldFaq1"
               }
             ]
           },
@@ -1333,6 +2305,22 @@
               {
                 "key": "Service",
                 "component": "TransWorldService1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "TransWorldWhyChooseUs1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "TransWorldTestimonials1"
+              }
+            ]
+          },
+          "serviceDetails": {
+            "components": [
+              {
+                "key": "ServiceDetail",
+                "component": "TransWorldServiceDetail1"
               }
             ]
           },
@@ -1344,11 +2332,27 @@
               }
             ]
           },
+          "blogDetails": {
+            "components": [
+              {
+                "key": "Blog",
+                "component": "BlogDetailSection"
+              }
+            ]
+          },
           "contact": {
             "components": [
               {
                 "key": "Contact",
                 "component": "TransWorldContact1"
+              }
+            ]
+          },
+          "getAQuote": {
+            "components": [
+              {
+                "key": "Quote",
+                "component": "TransWorldQuote1"
               }
             ]
           },
@@ -1362,86 +2366,6 @@
           }
         }
       }
-    }
-  },
-  "pages": {
-    "home": {
-      "components": [
-        "TopBar",
-        "Header",
-        "HeroSection",
-        "AboutUs",
-        "Services",
-        "HowItWorksSection",
-        "WhyChooseUs",
-        "Testimonials",
-        "BlogSection",
-        "Footer"
-      ]
-    },
-    "about": {
-      "components": [
-        "TopBar",
-        "Header",
-        "Breadcrumb",
-        "AboutUsSection",
-        "WhyChooseUsSection",
-        "HowItWorksSection",
-        "Footer"
-      ]
-    },
-    "gallery": {
-      "components": [
-        "TopBar",
-        "Header",
-        "Breadcrumb",
-        "GallerySection",
-        "Footer"
-      ]
-    },
-    "testimonials": {
-      "components": [
-        "TopBar",
-        "Header",
-        "Breadcrumb",
-        "TestimonialGrid",
-        "Footer"
-      ]
-    },
-    "services": {
-      "components": [
-        "TopBar",
-        "Header",
-        "Breadcrumb",
-        "ServiceGrid",
-        "Footer"
-      ]
-    },
-    "blog": {
-      "components": [
-        "TopBar",
-        "Header",
-        "Breadcrumb",
-        "BlogGrid",
-        "Footer"
-      ]
-    },
-    "contact": {
-      "components": [
-        "TopBar",
-        "Header",
-        "Breadcrumb",
-        "ContactSection",
-        "Footer"
-      ]
-    },
-    "not-found": {
-      "components": [
-        "TopBar",
-        "Header",
-        "NotFoundSection",
-        "Footer"
-      ]
     }
   }
 }

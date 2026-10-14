@@ -18,9 +18,11 @@ export default function BlogsPage() {
 
   return (
     <main className="flex min-h-screen flex-col bg-white">
-      <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} />
-      <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
-      <Breadcrumb data={commonData.blogsBreadcrumb} />
+      <div className="relative">
+        <TopBar data={sectionData.TopBar?.variants?.TransWorldTopBar1} />
+        <Header data={sectionData.Header?.variants?.TransWorldHeader1} />
+        <Breadcrumb data={commonData.blogsBreadcrumb} ui={commonData.globalUI} />
+      </div>
       <BlogGrid data={sectionData.Blog?.variants?.TransWorldBlog1} />
       <Footer data={commonData.Footer} />
     </main>
