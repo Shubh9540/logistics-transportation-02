@@ -39,7 +39,7 @@ export const WhyChooseUsSection = ({ data }: WhyChooseUsSectionProps) => {
   const videoEmbedUrl = `${data.videoUrl.replace('youtu.be/', 'www.youtube.com/embed/')}?autoplay=1`;
 
   return (
-    <section className="w-full bg-white py-8 lg:py-12">
+    <section className="w-full bg-white pt-8 pb-2 lg:pt-12 lg:pb-4">
       <div className="w-full">
         <div className="relative w-full overflow-hidden bg-[var(--color-primary-dark)] text-white xl:min-h-[48rem]">
           <div className="absolute inset-y-0 left-0 w-3/5 opacity-10">

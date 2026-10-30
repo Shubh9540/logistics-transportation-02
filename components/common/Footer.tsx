@@ -56,7 +56,7 @@ export const Footer = ({ data }: FooterProps) => {
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-[#002D49]/85 via-[#002D49]/90 to-[#063A5B]/75" />
 
-      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 gap-8 px-4 py-10 sm:grid-cols-2 sm:px-6 lg:grid-cols-3 lg:px-8 xl:grid-cols-[1.2fr_0.78fr_1fr_1.1fr_1fr] xl:gap-0">
+      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 gap-8 px-4 py-10 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8 xl:grid-cols-[1.3fr_0.9fr_1fr_1.2fr] xl:gap-0">
         <div className="sm:col-span-2 lg:col-span-1 xl:pr-8">
           <Link href={data.logoUrl} className="inline-block" aria-label={data.logoAlt}>
             <Image src={data.logo} alt={data.logoAlt} width={320} height={100} className="h-auto w-64" />
@@ -80,7 +80,7 @@ export const Footer = ({ data }: FooterProps) => {
           </div>
         </div>
 
-        <div className="xl:border-l xl:border-white/15 xl:px-7">
+        <div className="xl:border-l xl:border-white/15 xl:px-8">
           <h2 className="text-lg font-bold">{data.quickLinksTitle}</h2>
           <span className="mt-3 block h-0.5 w-8 bg-[var(--color-accent)]" />
           <ul className="mt-5 space-y-2.5">
@@ -95,7 +95,7 @@ export const Footer = ({ data }: FooterProps) => {
           </ul>
         </div>
 
-        <div className="xl:border-l xl:border-white/15 xl:px-7">
+        <div className="xl:border-l xl:border-white/15 xl:px-8">
           <h2 className="text-lg font-bold">{data.servicesTitle}</h2>
           <span className="mt-3 block h-0.5 w-8 bg-[var(--color-accent)]" />
           <ul className="mt-5 space-y-2.5">
@@ -110,7 +110,7 @@ export const Footer = ({ data }: FooterProps) => {
           </ul>
         </div>
 
-        <div className="xl:border-l xl:border-white/15 xl:px-7">
+        <div className="xl:border-l xl:border-white/15 xl:pl-8">
           <h2 className="text-lg font-bold">{data.contactTitle}</h2>
           <span className="mt-3 block h-0.5 w-8 bg-[var(--color-accent)]" />
           <ul className="mt-5 space-y-4">
@@ -132,18 +132,6 @@ export const Footer = ({ data }: FooterProps) => {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className="xl:border-l xl:border-white/15 xl:pl-7">
-          <h2 className="text-lg font-bold">{data.galleryTitle}</h2>
-          <span className="mt-3 block h-0.5 w-8 bg-[var(--color-accent)]" />
-          <div className="mt-5 grid grid-cols-3 gap-2">
-            {data.galleryImages.map((item) => (
-              <Link key={item.id} href={data.galleryUrl} className="group relative aspect-square overflow-hidden rounded-md">
-                <Image src={item.image} alt={item.imageAlt} fill sizes="110px" className="object-cover transition-transform duration-500 group-hover:scale-110" />
-              </Link>
-            ))}
-          </div>
         </div>
       </div>
 

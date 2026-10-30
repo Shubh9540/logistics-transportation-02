@@ -47,13 +47,13 @@ export const Header = ({ data }: HeaderProps) => {
           })}
         </nav>
 
-        <div className="flex items-center">
+        <div className="flex shrink-0 items-center">
           <Link
             href={data.contactButton.url}
-            className="hidden items-center gap-5 rounded-full bg-white py-2 pl-7 pr-2 text-sm font-semibold text-[#FF6500] shadow-[0_12px_30px_rgba(0,45,73,0.18)] transition-transform duration-300 hover:-translate-y-0.5 xl:flex"
+            className="hidden items-center gap-5 whitespace-nowrap rounded-full bg-white py-2 pl-7 pr-2 text-sm font-semibold text-[#FF6500] shadow-[0_12px_30px_rgba(0,45,73,0.18)] transition-transform duration-300 hover:-translate-y-0.5 xl:flex shrink-0"
           >
-            <span>{data.contactButton.text}</span>
-            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#FF6500] text-white">
+            <span className="whitespace-nowrap">{data.contactButton.text}</span>
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#FF6500] text-white">
               {renderButtonIcon(data.contactButton.icon)}
             </span>
           </Link>
@@ -90,10 +90,10 @@ export const Header = ({ data }: HeaderProps) => {
           <Link
             href={data.contactButton.url}
             onClick={() => setMobileMenuOpen(false)}
-            className="mt-4 flex items-center justify-between rounded-full bg-white py-2 pl-6 pr-2 text-sm font-semibold text-[#FF6500]"
+            className="mt-4 flex items-center justify-between whitespace-nowrap rounded-full bg-white py-2 pl-6 pr-2 text-sm font-semibold text-[#FF6500]"
           >
-            <span>{data.contactButton.text}</span>
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FF6500] text-white">
+            <span className="whitespace-nowrap">{data.contactButton.text}</span>
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#FF6500] text-white">
               {renderButtonIcon(data.contactButton.icon)}
             </span>
           </Link>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaArrowRight, FaArrowUp, FaCubes, FaPlane, FaPlay, FaShippingFast, FaWarehouse } from 'react-icons/fa';
+import { FaArrowUp, FaCubes, FaPlane, FaPlay, FaShippingFast, FaWarehouse } from 'react-icons/fa';
 import { ServiceCardProps, ServicesSectionProps } from '@/types/templates.types';
 
 const renderIcon = (iconName: string) => {
@@ -19,32 +19,26 @@ const renderIcon = (iconName: string) => {
   }
 };
 
-export const ServiceCard = ({ service, linkText }: ServiceCardProps) => {
+export const ServiceCard = ({ service }: ServiceCardProps) => {
   return (
-    <article className="group grid grid-cols-[4rem_3rem_minmax(0,1fr)_3.25rem] items-center gap-3 border-b border-white/20 py-6 sm:gap-4 lg:grid-cols-[5rem_4rem_minmax(0,15rem)_1px_minmax(0,1fr)_4rem] lg:gap-6 lg:py-7">
-      <span className="flex h-16 w-16 items-center justify-center text-5xl text-white lg:h-20 lg:w-20 lg:text-6xl">
+    <article className="group grid grid-cols-[3.5rem_2.5rem_minmax(0,1fr)] items-center gap-3 border-b border-white/20 py-6 sm:gap-4 lg:grid-cols-[4.5rem_3.5rem_minmax(0,18rem)_1px_minmax(0,1fr)] lg:gap-6 lg:py-7">
+      <span className="flex h-14 w-14 items-center justify-center text-4xl text-white lg:h-16 lg:w-16 lg:text-5xl">
         {renderIcon(service.icon)}
       </span>
 
-      <FaPlay className="text-5xl text-[#FF6500] lg:text-6xl" />
+      <FaPlay className="text-4xl text-[#FF6500] lg:text-5xl" />
 
       <h3 className="text-xl font-extrabold leading-tight text-white sm:text-2xl">
-        {service.title}
+        <Link href={service.url} className="transition-colors hover:text-[#FF8A3D]">
+          {service.title}
+        </Link>
       </h3>
 
       <span className="hidden h-16 w-px bg-white/35 lg:block" />
 
-      <p className="col-span-4 mt-2 text-sm leading-6 text-white/90 sm:text-base lg:col-span-1 lg:col-start-5 lg:mt-0 lg:max-w-md">
+      <p className="col-span-3 mt-2 text-sm leading-6 text-white/90 sm:text-base lg:col-span-1 lg:col-start-5 lg:mt-0">
         {service.description}
       </p>
-
-      <Link
-        href={service.url}
-        aria-label={`${linkText}: ${service.title}`}
-        className="col-start-4 row-start-1 flex h-12 w-12 items-center justify-center rounded-full border-2 border-white text-lg text-white transition-all duration-300 hover:border-[#FF6500] hover:bg-[#FF6500] lg:col-start-6 lg:h-14 lg:w-14"
-      >
-        <FaArrowRight />
-      </Link>
     </article>
   );
 };
